@@ -79,6 +79,16 @@ async function seedAtlasDatabase(): Promise<void> {
  * Connect to MongoDB Atlas using Mongoose and process.env.MONGODB_URI
  */
 export async function connectDB(): Promise<DatabaseStatus> {
+  // Re-use existing connection in serverless / warm container environments (e.g. Vercel)
+  if (isMongoConnected && mongoose.connection.readyState === 1) {
+    return {
+      connected: true,
+      type: 'mongodb_atlas',
+      uriConfigured: true,
+      databaseName: mongoose.connection.name || 'asvilla_hotel_booking',
+    };
+  }
+
   let mongoUri = process.env.MONGODB_URI || process.env.MONGO_URI;
 
   if (mongoUri && !mongoUri.startsWith('mongodb://') && !mongoUri.startsWith('mongodb+srv://')) {
