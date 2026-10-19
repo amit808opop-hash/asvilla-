@@ -1,0 +1,6 @@
+{
+  "name": "ASVILLA — Luxury Hotel Booking & Reservation Platform",
+  "description": "Your Stay, Your Comfort, Your Way. Book luxury hotels, heritage villas, and premium resorts across India with verified rooms, dynamic availability, and secure payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

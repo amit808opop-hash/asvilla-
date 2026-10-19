@@ -1,0 +1,1432 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "name": "Asvilla Concierge Admin",
+      "email": "admin@asvilla.com",
+      "phone": "+91 98765 43210",
+      "passwordHash": "$2b$10$0vXbVkkeX5Nkl90KSh.Z9.1DfAV41fIThze2yppSpBifhixWIwJBC",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "usr_guest_001",
+      "name": "Aarav Sharma",
+      "email": "guest@asvilla.com",
+      "phone": "+91 98123 45678",
+      "passwordHash": "$2b$10$eM3XnS2nfDFPxvUgZW0vT.9d38gTEDIfSScWWOt2dxIuRXa5w1kra",
+      "role": "user",
+      "createdAt": "2026-01-10T00:00:00.000Z",
+      "updatedAt": "2026-01-10T00:00:00.000Z"
+    }
+  ],
+  "hotels": [
+    {
+      "_id": "htl_varanasi_01",
+      "name": "Brijrama Heritage Palace",
+      "slug": "brijrama-heritage-palace-varanasi",
+      "tagline": "18th-century riverside palace overlooking Darbhanga Ghat",
+      "description": "One of the oldest landmarks on the sacred riverfront of Varanasi, Brijrama Palace is an architectural marvel built in 1812 by the Royal House of Nagpur. Accessible exclusively by private riverboat, this heritage sanctuary offers hand-carved sandstone corridors, classical sitar recitals at twilight, royal dining at Darbhanga, and unparalleled sunrise views over the holy Ganga.",
+      "address": "Darbhanga Ghat, Dashashwamedh",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "221001",
+      "latitude": 25.3045,
+      "longitude": 83.0112,
+      "coverImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Private Boat Transfer",
+        "Ghat Ganga View",
+        "Ayurvedic Wellness Spa",
+        "Heritage Dining",
+        "24/7 Butler Service",
+        "Complimentary High-speed WiFi",
+        "Evening Cultural Concerts"
+      ],
+      "starRating": 5,
+      "guestRating": 4.9,
+      "reviewCount": 248,
+      "featured": true,
+      "published": true,
+      "priceStartingFrom": 18500,
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 48 hours before check-in. Non-refundable thereafter.",
+      "petFriendly": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Pandit Shailendra Nath Mishra",
+        "role": "Heritage Custodian & Resident Palace Host",
+        "phone": "+91 98390 41285",
+        "deskPhone": "+91 542 245 1010",
+        "email": "host.brijrama@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "Hindi",
+          "English",
+          "Sanskrit",
+          "Bhojpuri"
+        ],
+        "experienceYears": 22,
+        "checkInInstructions": "Private royal Bajra boat will await you at Rajghat or Assi Ghat jetty with liveried luggage porters. Classical sitar welcome and royal saffron thandai served upon arrival at Darbhanga Ghat."
+      }
+    },
+    {
+      "_id": "htl_jaipur_02",
+      "name": "The Rajvilas Oberoi Resort",
+      "slug": "the-rajvilas-oberoi-resort-jaipur",
+      "tagline": "Fort-style royal sanctuary spread across 32 acres of lush gardens",
+      "description": "Built in the regal architectural idiom of traditional Rajasthan, The Rajvilas features Mughal pavilions, reflection pools, and manicured courtyards. Experience authentic pink sandstone architecture, private plunge pools, royal archery, and decadent Rajasthani thalis prepared by royal master chefs.",
+      "address": "Goner Road, Babaji Ka Modh",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "pincode": "302031",
+      "latitude": 26.8572,
+      "longitude": 75.8924,
+      "coverImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Private Plunge Pools",
+        "Royal Spa",
+        "Tennis Courts",
+        "Fine Dining Pavilions",
+        "Airport Chauffeur",
+        "Valet Parking",
+        "Kids Activity Club"
+      ],
+      "starRating": 5,
+      "guestRating": 4.95,
+      "reviewCount": 312,
+      "featured": true,
+      "published": true,
+      "priceStartingFrom": 29000,
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 72 hours before check-in.",
+      "petFriendly": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Kunwar Ranvijay Singh Rathore",
+        "role": "Estate Director & Royal Rajput Host",
+        "phone": "+91 98290 88214",
+        "deskPhone": "+91 141 268 0101",
+        "email": "director.rajvilas@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Hindi",
+          "Rajasthani",
+          "French"
+        ],
+        "experienceYears": 19,
+        "checkInInstructions": "Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony."
+      }
+    },
+    {
+      "_id": "htl_goa_03",
+      "name": "Villa Capella Azure Bay",
+      "slug": "villa-capella-azure-bay-goa",
+      "tagline": "Private cliffside luxury villas overlooking the Arabian Sea",
+      "description": "Perched on the serene cliffs of North Goa, Villa Capella Azure Bay blends Portuguese colonial elegance with barefoot tropical luxury. Floor-to-ceiling glass reveals uninterrupted ocean sunsets, infinity lap pools, personalized mixologist cocktails, and direct beach access.",
+      "address": "Cavelossim Beach Road, Aguada Bay",
+      "city": "Goa",
+      "state": "Goa",
+      "country": "India",
+      "pincode": "403515",
+      "latitude": 15.4989,
+      "longitude": 73.7692,
+      "coverImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Oceanfront Infinity Pool",
+        "Direct Private Beach",
+        "Sunset Lounge Bar",
+        "Water Sports Desk",
+        "Seafood Grill",
+        "Spa & Yoga Pavilion"
+      ],
+      "starRating": 5,
+      "guestRating": 4.85,
+      "reviewCount": 194,
+      "featured": true,
+      "published": true,
+      "priceStartingFrom": 16500,
+      "checkInTime": "15:00",
+      "checkOutTime": "11:00",
+      "cancellationPolicy": "Free cancellation up to 5 days prior to arrival.",
+      "petFriendly": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Maria Clarissa Fernandez",
+        "role": "Managing Villa Owner & Coastal Experience Lead",
+        "phone": "+91 98221 75390",
+        "deskPhone": "+91 832 277 4000",
+        "email": "maria.capella@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Portuguese",
+          "Konkani",
+          "Hindi"
+        ],
+        "experienceYears": 14,
+        "checkInInstructions": "Drive directly up the private cliffside lane to Villa Capella gates. Direct keyless or host check-in is available. Chilled tender coconut water and Portuguese fado music await your private poolside arrival."
+      }
+    },
+    {
+      "_id": "htl_delhi_04",
+      "name": "The Imperial Lutyens",
+      "slug": "the-imperial-lutyens-delhi",
+      "tagline": "Iconic art deco heritage grand hotel in the heart of the capital",
+      "description": "An oasis of calm amidst the vibrant energy of New Delhi, The Imperial showcases world-class colonial charm, sprawling royal palm gardens, award-winning restaurants including 1911 and Spice Route, and a museum-quality art collection spanning the British Raj.",
+      "address": "Janpath, Connaught Place",
+      "city": "Delhi",
+      "state": "Delhi NCR",
+      "country": "India",
+      "pincode": "110001",
+      "latitude": 28.6219,
+      "longitude": 77.2183,
+      "coverImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Historic Art Gallery",
+        "Heated Outdoor Pool",
+        "Imperial Spa",
+        "7 Gourmet Restaurants",
+        "Executive Business Club",
+        "Airport Limousine"
+      ],
+      "starRating": 5,
+      "guestRating": 4.88,
+      "reviewCount": 420,
+      "featured": true,
+      "published": true,
+      "priceStartingFrom": 14500,
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in.",
+      "petFriendly": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Vikramaditya Oberoi Sen",
+        "role": "Executive General Manager",
+        "phone": "+91 98110 56230",
+        "deskPhone": "+91 11 2334 1234",
+        "email": "gm.imperial@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Hindi",
+          "German"
+        ],
+        "experienceYears": 24,
+        "checkInInstructions": "Pull up to the Royal Portico under the imperial palm drive. Our Chief Clefs d'Or Concierge coordinates instant VIP escort straight to your heritage suite with priority registration in your salon."
+      }
+    },
+    {
+      "_id": "htl_mumbai_05",
+      "name": "The Marine Bay Palace",
+      "slug": "the-marine-bay-palace-mumbai",
+      "tagline": "Stately waterfront elegance overlooking Marine Drive & Queen's Necklace",
+      "description": "Standing proudly along the Arabian Sea waterfront in South Mumbai, The Marine Bay Palace commands breathtaking ocean vistas. With legendary hospitality, Michelin-calibre dining, and lavish suites, it represents Mumbai luxury at its finest.",
+      "address": "Apollo Bunder, Colaba",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "400001",
+      "latitude": 18.922,
+      "longitude": 72.8347,
+      "coverImage": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Sea View Rooms",
+        "Harbor Cruise Charters",
+        "Rooftop Bar",
+        "High Tea Lounge",
+        "Luxury Wellness Club",
+        "24hr Concierge"
+      ],
+      "starRating": 5,
+      "guestRating": 4.92,
+      "reviewCount": 512,
+      "featured": true,
+      "published": true,
+      "priceStartingFrom": 22000,
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 48 hours prior to arrival.",
+      "petFriendly": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Farokh J. Cama",
+        "role": "Palace Resident Manager & Master Concierge",
+        "phone": "+91 98200 44192",
+        "deskPhone": "+91 22 6665 3366",
+        "email": "manager.marinebay@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Hindi",
+          "Gujarati",
+          "Marathi"
+        ],
+        "experienceYears": 26,
+        "checkInInstructions": "Valet greets you at the historic sea-facing driveway opposite Gateway of India. Personal butler introduces you to sea-view suite amenities and schedules your evening sunset tea."
+      }
+    },
+    {
+      "_id": "htl_agra_06",
+      "name": "Amarvilas Taj Estate",
+      "slug": "amarvilas-taj-estate-agra",
+      "tagline": "Uninterrupted private balconies facing the majestic Taj Mahal",
+      "description": "Located just 600 meters from the Taj Mahal, every single guest room and villa at Amarvilas offers unobstructed views of the world wonder. Inspired by Moorish and Mughal architecture, with cascading fountains, terraced lawns, and royal pavilions.",
+      "address": "Taj East Gate Road, Tajganj",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "282001",
+      "latitude": 27.1691,
+      "longitude": 78.0494,
+      "coverImage": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Taj Mahal View Balconies",
+        "Private Golf Cart Transfers",
+        "Mughal Spa",
+        "Poolside Dinners",
+        "Classical Sitar Music",
+        "Artisan Boutique"
+      ],
+      "starRating": 5,
+      "guestRating": 4.96,
+      "reviewCount": 380,
+      "featured": true,
+      "published": true,
+      "priceStartingFrom": 34000,
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 72 hours before check-in.",
+      "petFriendly": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Aditya Pratap Shekhawat",
+        "role": "General Manager & Taj Heritage Liaison",
+        "phone": "+91 98370 29481",
+        "deskPhone": "+91 562 223 1515",
+        "email": "gm.amarvilas@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Hindi",
+          "Urdu",
+          "Italian"
+        ],
+        "experienceYears": 17,
+        "checkInInstructions": "Private battery-operated golf buggies escort guests from security gates directly to the Mughal terrace. Unobstructed Taj Mahal view binoculars and champagne flutes provided upon entering your private balcony."
+      }
+    },
+    {
+      "_id": "htl_manali_07",
+      "name": "The Himalayan Cedar Chalet",
+      "slug": "the-himalayan-cedar-chalet-manali",
+      "tagline": "Gothic castle and cedar timber chalets amidst snow-capped peaks",
+      "description": "Set at 2,000 meters elevation amidst apple orchards and towering deodar cedars, this European-style stone castle retreat offers wood-burning fireplaces, panoramic Pir Panjal mountain panoramas, heated alpine pool, and guided valley expeditions.",
+      "address": "Hadimba Road, Log Huts Area",
+      "city": "Manali",
+      "state": "Himachal Pradesh",
+      "country": "India",
+      "pincode": "175131",
+      "latitude": 32.2432,
+      "longitude": 77.1892,
+      "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Snow Peak Views",
+        "Wood Fireplaces",
+        "Heated Outdoor Pool",
+        "Orchard Walks",
+        "Himalayan Herbal Spa",
+        "Mountain Biking"
+      ],
+      "starRating": 4,
+      "guestRating": 4.82,
+      "reviewCount": 165,
+      "featured": false,
+      "published": true,
+      "priceStartingFrom": 11500,
+      "checkInTime": "13:00",
+      "checkOutTime": "11:00",
+      "cancellationPolicy": "Free cancellation up to 48 hours before check-in.",
+      "petFriendly": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Captain Tenzing Dorjee Thakur",
+        "role": "Chalet Owner & Alpine Expedition Guide",
+        "phone": "+91 98160 37190",
+        "deskPhone": "+91 1902 253 200",
+        "email": "host.himalayan@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Hindi",
+          "Pahari",
+          "Tibetan"
+        ],
+        "experienceYears": 16,
+        "checkInInstructions": "4x4 snow-assist vehicles meet you in Old Manali. The fireplace is pre-lit with aromatic cedar logs, and hot spiced Kashmiri Kahwa tea is served at check-in."
+      }
+    },
+    {
+      "_id": "htl_bengaluru_08",
+      "name": "The Leela Garden Palace",
+      "slug": "the-leela-garden-palace-bengaluru",
+      "tagline": "Artisanal grand palace surrounded by nine acres of tropical gardens",
+      "description": "Drawing architectural grandeur from the royal Mysore Palace, The Leela Bengaluru is adorned with copper domes, ornate arches, gold leaf ceilings, and ornate crystal chandeliers, combining modern silicon city convenience with majestic heritage warmth.",
+      "address": "Old Airport Road, Kodihalli",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "pincode": "560008",
+      "latitude": 12.9606,
+      "longitude": 77.6484,
+      "coverImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "amenities": [
+        "Lush Tropical Gardens",
+        "Olympic-size Swimming Pool",
+        "Royal Spa by ESPA",
+        "Citrus & Zen Restaurants",
+        "Executive Heli-pad Transfers",
+        "High-Speed Business Centre"
+      ],
+      "starRating": 5,
+      "guestRating": 4.89,
+      "reviewCount": 290,
+      "featured": false,
+      "published": true,
+      "priceStartingFrom": 15500,
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
+      "cancellationPolicy": "Free cancellation up to 24 hours before check-in.",
+      "petFriendly": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "owner": {
+        "name": "Rohini Devaraj Urs",
+        "role": "Director of Hospitality & Guest Relations",
+        "phone": "+91 98450 62819",
+        "deskPhone": "+91 80 2521 1234",
+        "email": "director.gardenpalace@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Kannada",
+          "Tamil",
+          "Hindi"
+        ],
+        "experienceYears": 18,
+        "checkInInstructions": "Arrive at the grand Mysore-domed reception. Executive Club guests enjoy express check-in on the 6th floor Royal Club lounge with complimentary high tea and botanical garden vistas."
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "rm_varanasi_01",
+      "hotelId": "htl_varanasi_01",
+      "roomType": "Maharaja Ghat View Suite",
+      "slug": "maharaja-ghat-view-suite",
+      "description": "Expansive royal suite with antique jharokha balcony directly overlooking the sacred Ganga. Hand-painted fresco ceilings and Carrara marble ensuite.",
+      "pricePerNight": 28500,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 4,
+      "bedType": "Royal King Bed",
+      "sizeSqFt": 680,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Private Balcony",
+        "River View",
+        "Bathtub",
+        "Butler Service",
+        "Espresso Machine",
+        "Pillow Menu"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_varanasi_02",
+      "hotelId": "htl_varanasi_01",
+      "roomType": "Heritage Courtyard Room",
+      "slug": "heritage-courtyard-room",
+      "description": "Warm sandstone chamber featuring traditional brass detailing, handcrafted silk furnishings, and serene inner courtyard views.",
+      "pricePerNight": 18500,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 8,
+      "bedType": "Queen Bed",
+      "sizeSqFt": 450,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Courtyard View",
+        "Rain Shower",
+        "Complimentary Mini-bar",
+        "High-Speed WiFi",
+        "Tea Selection"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_jaipur_01",
+      "hotelId": "htl_jaipur_02",
+      "roomType": "Royal Tent with Private Garden",
+      "slug": "royal-tent-private-garden",
+      "description": "Luxury air-conditioned canopied pavilion with embroidered Mughal draperies, teakwood floors, and private walled garden courtyard.",
+      "pricePerNight": 39000,
+      "capacity": {
+        "adults": 2,
+        "children": 2,
+        "total": 4
+      },
+      "totalRooms": 6,
+      "bedType": "Four-Poster King Bed",
+      "sizeSqFt": 750,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Private Garden",
+        "Freestanding Clawfoot Tub",
+        "Outdoor Daybed",
+        "Butler Service",
+        "Welcome Champagne"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_jaipur_02",
+      "hotelId": "htl_jaipur_02",
+      "roomType": "Premier Fort View Room",
+      "slug": "premier-fort-view-room",
+      "description": "Spacious sandstone retreat with sunken marble bath overlooking traditional lily ponds and flaming mashaal torches.",
+      "pricePerNight": 29000,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 10,
+      "bedType": "King Bed",
+      "sizeSqFt": 520,
+      "images": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Sunken Marble Bath",
+        "Reflection Pool View",
+        "Personal Bar",
+        "Sound System",
+        "Silk Bathrobes"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_goa_01",
+      "hotelId": "htl_goa_03",
+      "roomType": "Cliffside Oceanfront Villa",
+      "slug": "cliffside-oceanfront-villa",
+      "description": "Private 1-bedroom villa with cantilevered sundeck, plunge pool, and floor-to-ceiling vistas of the azure Arabian Sea waves.",
+      "pricePerNight": 26000,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 5,
+      "bedType": "Super King Bed",
+      "sizeSqFt": 920,
+      "images": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Private Plunge Pool",
+        "Direct Ocean Panorama",
+        "Sun Loungers",
+        "Wine Cellarette",
+        "Open-air Rain Shower"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_goa_02",
+      "hotelId": "htl_goa_03",
+      "roomType": "Portuguese Garden Chalet",
+      "slug": "portuguese-garden-chalet",
+      "description": "Artisanal Portuguese villa suite with terracotta tiled roof, hammock veranda, and tropical bougainvillea garden surroundings.",
+      "pricePerNight": 16500,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 8,
+      "bedType": "Queen Bed",
+      "sizeSqFt": 480,
+      "images": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Private Veranda",
+        "Garden View",
+        "Hammock",
+        "Smart TV",
+        "Beach Bag & Towels"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_delhi_01",
+      "hotelId": "htl_delhi_04",
+      "roomType": "Lutyens Heritage Suite",
+      "slug": "lutyens-heritage-suite",
+      "description": "Grand suite showcasing original colonial art pieces, high ceilings, separate drawing room, and dining lounge.",
+      "pricePerNight": 25000,
+      "capacity": {
+        "adults": 3,
+        "children": 1,
+        "total": 4
+      },
+      "totalRooms": 6,
+      "bedType": "King Bed",
+      "sizeSqFt": 850,
+      "images": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Art Deco Salon",
+        "Walk-in Wardrobe",
+        "Marble Bathroom",
+        "Executive Lounge Access",
+        "Complimentary Breakfast"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_delhi_02",
+      "hotelId": "htl_delhi_04",
+      "roomType": "Heritage Deluxe Room",
+      "slug": "heritage-deluxe-room",
+      "description": "Classic art-deco appointed room with mahogany writing desk, Italian marble bathroom, and garden outlook.",
+      "pricePerNight": 14500,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 12,
+      "bedType": "King or Twin Beds",
+      "sizeSqFt": 460,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Garden View",
+        "Work Desk",
+        "Marble Bath",
+        "Premium Linens",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_mumbai_01",
+      "hotelId": "htl_mumbai_05",
+      "roomType": "Grand Harbour Oceanfront Suite",
+      "slug": "grand-harbour-oceanfront-suite",
+      "description": "Panoramic corner suite framing the Gateway of India and Arabian Sea yachts. Italian marble ensuite with sea-view soaking tub.",
+      "pricePerNight": 36000,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 5,
+      "bedType": "Presidential King Bed",
+      "sizeSqFt": 900,
+      "images": [
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "180° Ocean View",
+        "Jacuzzi Soaking Tub",
+        "24/7 Butler",
+        "Champagne on Arrival",
+        "Airport Mercedes Transfer"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_mumbai_02",
+      "hotelId": "htl_mumbai_05",
+      "roomType": "Luxury City View Room",
+      "slug": "luxury-city-view-room",
+      "description": "Elegantly furnished luxury room with plush velvet furnishings, high-speed connectivity, and Colaba heritage views.",
+      "pricePerNight": 22000,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 10,
+      "bedType": "King Bed",
+      "sizeSqFt": 480,
+      "images": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "City Skyline View",
+        "Workstation",
+        "Deep Soak Tub",
+        "Espresso Machine",
+        "24h Room Dining"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_agra_01",
+      "hotelId": "htl_agra_06",
+      "roomType": "Premier Taj View Balcony Suite",
+      "slug": "premier-taj-view-balcony-suite",
+      "description": "Exclusive suite featuring a private open-air terrace with an uninterrupted, front-row view of the Taj Mahal monument.",
+      "pricePerNight": 48000,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 4,
+      "bedType": "Emperor King Bed",
+      "sizeSqFt": 880,
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Direct Taj Mahal View",
+        "Private Open Terrace",
+        "Telescope",
+        "Butler Service",
+        "Signature Afternoon Tea"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_agra_02",
+      "hotelId": "htl_agra_06",
+      "roomType": "Mughal Garden Deluxe",
+      "slug": "mughal-garden-deluxe",
+      "description": "Opulent room with arched doorways, hand-tufted carpets, and direct views of the terraced fountains and Mughal gardens.",
+      "pricePerNight": 34000,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 8,
+      "bedType": "King Bed",
+      "sizeSqFt": 510,
+      "images": [
+        "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Garden View",
+        "Marble Rain Shower",
+        "Handcrafted Chocolates",
+        "High-Speed WiFi",
+        "Soundbar"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_manali_01",
+      "hotelId": "htl_manali_07",
+      "roomType": "Alpine Fir Timber Chalet",
+      "slug": "alpine-fir-timber-chalet",
+      "description": "Two-story wooden cottage nestled in ancient apple orchards with stone fireplace, heated floorboards, and glacier mountain vistas.",
+      "pricePerNight": 19500,
+      "capacity": {
+        "adults": 4,
+        "children": 2,
+        "total": 6
+      },
+      "totalRooms": 4,
+      "bedType": "King Bed + Loft Twin Beds",
+      "sizeSqFt": 980,
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Stone Fireplace",
+        "Glacier Views",
+        "Heated Flooring",
+        "Balcony Sundeck",
+        "Mountain Gear Kit"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_manali_02",
+      "hotelId": "htl_manali_07",
+      "roomType": "Cedar Mountain Lodge Room",
+      "slug": "cedar-mountain-lodge-room",
+      "description": "Cozy timber retreat with bay window daybed overlooking snow peaks, plush duvet bedding, and warm pine interiors.",
+      "pricePerNight": 11500,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 8,
+      "bedType": "King Bed",
+      "sizeSqFt": 460,
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Mountain Panorama",
+        "Bay Window Seating",
+        "Hot Chocolate Bar",
+        "Electric Blankets",
+        "Board Games"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_bengaluru_01",
+      "hotelId": "htl_bengaluru_08",
+      "roomType": "Royal Maharaja Suite",
+      "slug": "royal-maharaja-suite-bengaluru",
+      "description": "Palatial suite featuring Mysore-inspired brass and mother-of-pearl craftsmanship, personal dining rotunda, and spa bath.",
+      "pricePerNight": 28000,
+      "capacity": {
+        "adults": 2,
+        "children": 2,
+        "total": 4
+      },
+      "totalRooms": 5,
+      "bedType": "King Bed",
+      "sizeSqFt": 820,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Private Dining Table",
+        "Pool View",
+        "Jacuzzi Bath",
+        "Club Lounge Cocktails",
+        "Limousine Transfer"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "rm_bengaluru_02",
+      "hotelId": "htl_bengaluru_08",
+      "roomType": "Premier Garden Wing Room",
+      "slug": "premier-garden-wing-room",
+      "description": "Peaceful luxury sanctuary overlooking 9 acres of blooming tropical greenery, water lilies, and palms.",
+      "pricePerNight": 15500,
+      "capacity": {
+        "adults": 2,
+        "children": 1,
+        "total": 3
+      },
+      "totalRooms": 12,
+      "bedType": "King or Twin Beds",
+      "sizeSqFt": 490,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "amenities": [
+        "Tropical Garden View",
+        "Walk-in Shower",
+        "Ergonomic Desk",
+        "High-Speed Wi-Fi",
+        "Artisan Coffee"
+      ],
+      "isAvailable": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "bk_mvfbyu4s_btbw",
+      "bookingReference": "ASV-2026-5129",
+      "userId": "usr_guest_mvfbyu4s",
+      "hotelId": "htl_varanasi_01",
+      "roomId": "rm_varanasi_01",
+      "guestName": "Aditya Roy",
+      "guestEmail": "aditya.roy@example.com",
+      "guestPhone": "+91 98765 43210",
+      "checkIn": "2026-11-01",
+      "checkOut": "2026-11-04",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 28500,
+        "nights": 3,
+        "rooms": 1,
+        "roomTotal": 85500,
+        "gstAmount": 15390,
+        "serviceFee": 499,
+        "discountAmount": 0,
+        "totalAmount": 101389
+      },
+      "paymentMethod": "COD",
+      "paymentStatus": "unpaid",
+      "bookingStatus": "pending_confirmation",
+      "hotelOwner": {
+        "name": "Pandit Shailendra Nath Mishra",
+        "role": "Heritage Custodian & Resident Palace Host",
+        "phone": "+91 98390 41285",
+        "deskPhone": "+91 542 245 1010",
+        "email": "host.brijrama@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "Hindi",
+          "English",
+          "Sanskrit",
+          "Bhojpuri"
+        ],
+        "experienceYears": 22,
+        "checkInInstructions": "Private royal Bajra boat will await you at Rajghat or Assi Ghat jetty with liveried luggage porters. Classical sitar welcome and royal saffron thandai served upon arrival at Darbhanga Ghat."
+      },
+      "paymentInstructions": "Please present this booking reference and pay at the hotel during check-in.",
+      "createdAt": "2026-10-19T14:09:16.300Z",
+      "updatedAt": "2026-10-19T14:09:16.301Z"
+    },
+    {
+      "_id": "bk_mvdz7it4_hw40",
+      "bookingReference": "ASV-2026-2611",
+      "userId": "usr_guest_001",
+      "hotelId": "htl_jaipur_02",
+      "roomId": "rm_jaipur_01",
+      "guestName": "Aarav Sharma",
+      "guestEmail": "guest@asvilla.com",
+      "guestPhone": "+91 98123 45678",
+      "checkIn": "2026-11-10",
+      "checkOut": "2026-11-12",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 39000,
+        "nights": 2,
+        "rooms": 1,
+        "roomTotal": 78000,
+        "gstAmount": 9360,
+        "serviceFee": 1500,
+        "discountAmount": 0,
+        "totalAmount": 88860
+      },
+      "paymentMethod": "COD",
+      "paymentStatus": "unpaid",
+      "bookingStatus": "pending_confirmation",
+      "hotelOwner": {
+        "name": "Kunwar Ranvijay Singh Rathore",
+        "role": "Estate Director & Royal Rajput Host",
+        "phone": "+91 98290 88214",
+        "deskPhone": "+91 141 268 0101",
+        "email": "director.rajvilas@asvilla.com",
+        "verified": true,
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+        "languages": [
+          "English",
+          "Hindi",
+          "Rajasthani",
+          "French"
+        ],
+        "experienceYears": 19,
+        "checkInInstructions": "Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony."
+      },
+      "paymentInstructions": "Please present this booking reference and pay at the hotel during check-in.",
+      "createdAt": "2026-10-18T15:24:20.344Z",
+      "updatedAt": "2026-10-18T15:24:20.344Z"
+    },
+    {
+      "_id": "bk_mvdy43fd_iwwm",
+      "bookingReference": "ASV-2026-8917",
+      "userId": "usr_guest_001",
+      "hotelId": "htl_varanasi_01",
+      "roomId": "rm_varanasi_01",
+      "guestName": "Aarav Sharma",
+      "guestEmail": "guest@asvilla.com",
+      "guestPhone": "+91 98123 45678",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-22",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 28500,
+        "nights": 3,
+        "rooms": 1,
+        "roomTotal": 85500,
+        "gstAmount": 10260,
+        "serviceFee": 1500,
+        "discountAmount": 0,
+        "totalAmount": 97260
+      },
+      "paymentMethod": "COD",
+      "paymentStatus": "unpaid",
+      "bookingStatus": "pending_confirmation",
+      "paymentInstructions": "Please present this booking reference and pay at the hotel during check-in.",
+      "createdAt": "2026-10-18T14:53:40.825Z",
+      "updatedAt": "2026-10-18T14:53:40.825Z"
+    },
+    {
+      "_id": "bk_mvdy3oyv_9r5y",
+      "bookingReference": "ASV-2026-6815",
+      "userId": "usr_guest_001",
+      "hotelId": "htl_varanasi_01",
+      "roomId": "rm_varanasi_01",
+      "guestName": "Aarav Sharma",
+      "guestEmail": "guest@asvilla.com",
+      "guestPhone": "+91 98123 45678",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-22",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 28500,
+        "nights": 3,
+        "rooms": 1,
+        "roomTotal": 85500,
+        "gstAmount": 10260,
+        "serviceFee": 1500,
+        "discountAmount": 0,
+        "totalAmount": 97260
+      },
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "pending",
+      "bookingStatus": "pending",
+      "paymentInstructions": "Please proceed with online payment verification.",
+      "createdAt": "2026-10-18T14:53:22.087Z",
+      "updatedAt": "2026-10-18T14:53:22.223Z",
+      "razorpayOrderId": "order_1792335202223_y5bqr7"
+    },
+    {
+      "_id": "bk_mvdy0u1m_zwwz",
+      "bookingReference": "ASV-2026-9994",
+      "userId": "usr_guest_001",
+      "hotelId": "htl_jaipur_02",
+      "roomId": "rm_jaipur_01",
+      "guestName": "Aarav Sharma",
+      "guestEmail": "guest@asvilla.com",
+      "guestPhone": "+91 98123 45678",
+      "checkIn": "2026-11-25",
+      "checkOut": "2026-11-27",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 39000,
+        "nights": 2,
+        "rooms": 1,
+        "roomTotal": 78000,
+        "gstAmount": 9360,
+        "serviceFee": 1500,
+        "discountAmount": 7500,
+        "promoCode": "ROYAL15",
+        "totalAmount": 81360
+      },
+      "paymentMethod": "COD",
+      "paymentStatus": "unpaid",
+      "bookingStatus": "cancelled",
+      "paymentInstructions": "Please present this booking reference and pay at the hotel during check-in.",
+      "createdAt": "2026-10-18T14:51:08.698Z",
+      "updatedAt": "2026-10-18T14:51:20.746Z",
+      "cancellationReason": "Change of travel schedule",
+      "cancelledAt": "2026-10-18T14:51:20.746Z"
+    },
+    {
+      "_id": "bk_mv6ke3rj_7xfp",
+      "bookingReference": "ASV-2026-5821",
+      "userId": "usr_guest_001",
+      "hotelId": "htl_varanasi_01",
+      "roomId": "rm_varanasi_01",
+      "guestName": "Aarav Sharma",
+      "guestEmail": "guest@asvilla.com",
+      "guestPhone": "+91 98123 45678",
+      "checkIn": "2026-11-20",
+      "checkOut": "2026-11-22",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 28500,
+        "nights": 2,
+        "rooms": 1,
+        "roomTotal": 57000,
+        "gstAmount": 6840,
+        "serviceFee": 1500,
+        "discountAmount": 10000,
+        "promoCode": "ASVILLA20",
+        "totalAmount": 55340
+      },
+      "paymentStatus": "success",
+      "bookingStatus": "confirmed",
+      "createdAt": "2026-10-13T10:55:09.967Z",
+      "updatedAt": "2026-10-13T10:55:25.602Z",
+      "razorpayOrderId": "order_1791888916660_xhodna",
+      "razorpayPaymentId": "pay_rzp_test_123456",
+      "paymentId": "pay_mv6keftu_typd"
+    },
+    {
+      "_id": "bk_demo_001",
+      "bookingReference": "ASV-2026-8921",
+      "userId": "usr_guest_001",
+      "hotelId": "htl_varanasi_01",
+      "roomId": "rm_varanasi_01",
+      "guestName": "Aarav Sharma",
+      "guestEmail": "guest@asvilla.com",
+      "guestPhone": "+91 98123 45678",
+      "specialRequests": "High floor ghat view requested; arriving via airport boat transfer at 3 PM.",
+      "checkIn": "2026-11-10",
+      "checkOut": "2026-11-13",
+      "numberOfGuests": 2,
+      "numberOfRooms": 1,
+      "priceBreakdown": {
+        "basePrice": 28500,
+        "nights": 3,
+        "rooms": 1,
+        "roomTotal": 85500,
+        "gstAmount": 10260,
+        "serviceFee": 1500,
+        "discountAmount": 10000,
+        "promoCode": "ASVILLA20",
+        "totalAmount": 87260
+      },
+      "paymentStatus": "success",
+      "bookingStatus": "confirmed",
+      "razorpayOrderId": "order_ASVILLA_rzp_981203",
+      "razorpayPaymentId": "pay_ASVILLA_rzp_774129",
+      "createdAt": "2026-03-10T11:00:00Z",
+      "updatedAt": "2026-03-10T11:05:00Z"
+    }
+  ],
+  "payments": [
+    {
+      "_id": "pay_mv6keftu_typd",
+      "bookingId": "bk_mv6ke3rj_7xfp",
+      "bookingReference": "ASV-2026-5821",
+      "userId": "usr_guest_001",
+      "provider": "razorpay",
+      "providerOrderId": "order_1791888916660_xhodna",
+      "providerPaymentId": "pay_rzp_test_123456",
+      "providerSignature": "sandbox_sig_order_1791888916660_xhodna_pay_rzp_test_123456",
+      "amount": 55340,
+      "amountInPaise": 5534000,
+      "currency": "INR",
+      "status": "captured",
+      "method": "Razorpay UPI (guest@oksbi)",
+      "verifiedAt": "2026-10-13T10:55:25.602Z",
+      "createdAt": "2026-10-13T10:55:25.602Z"
+    },
+    {
+      "_id": "pay_demo_001",
+      "bookingId": "bk_demo_001",
+      "bookingReference": "ASV-2026-8921",
+      "userId": "usr_guest_001",
+      "provider": "razorpay",
+      "providerOrderId": "order_ASVILLA_rzp_981203",
+      "providerPaymentId": "pay_ASVILLA_rzp_774129",
+      "providerSignature": "sig_mock_verified_hmac_9921827419",
+      "amount": 87260,
+      "amountInPaise": 8726000,
+      "currency": "INR",
+      "status": "captured",
+      "method": "Razorpay UPI (Verified)",
+      "verifiedAt": "2026-03-10T11:05:00Z",
+      "createdAt": "2026-03-10T11:04:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "rev_001",
+      "hotelId": "htl_varanasi_01",
+      "userId": "usr_guest_001",
+      "userName": "Aarav Sharma",
+      "rating": 5,
+      "title": "Unmatched spiritual luxury by the Ganga",
+      "comment": "Arriving at Brijrama Palace on a private wooden boat at sunset was unforgettable. The flute melodies at dusk, the view of evening Ganga Aarti from our jharokha balcony, and the impeccable staff made this the finest stay of our lives.",
+      "createdAt": "2026-02-14T10:30:00Z"
+    },
+    {
+      "_id": "rev_002",
+      "hotelId": "htl_jaipur_02",
+      "userId": "usr_guest_001",
+      "userName": "Priya & Vikram Malhotra",
+      "rating": 5,
+      "title": "True royal treatment like kings and queens",
+      "comment": "The luxury tents at Rajvilas are beyond words. The attention to detail, private garden dinner under starlit skies, and warm hospitality represent the pinnacle of Indian hospitality.",
+      "createdAt": "2026-03-01T14:20:00Z"
+    },
+    {
+      "_id": "rev_003",
+      "hotelId": "htl_goa_03",
+      "userId": "usr_guest_001",
+      "userName": "Rohan Deshmukh",
+      "rating": 5,
+      "title": "Breathtaking ocean views and serenity",
+      "comment": "Far away from crowded tourist spots, Villa Capella in Goa offered peace and sheer comfort. Waking up to crashing waves and watching the sunset from the cliffside pool was magical.",
+      "createdAt": "2026-03-12T09:15:00Z"
+    },
+    {
+      "_id": "rev_004",
+      "hotelId": "htl_agra_06",
+      "userId": "usr_guest_001",
+      "userName": "Elena Rostova",
+      "rating": 5,
+      "title": "Waking up to the Taj Mahal from our bed",
+      "comment": "There is nothing in the world comparable to drinking morning tea on the balcony watching dawn illuminate the Taj Mahal dome. Worth every rupee.",
+      "createdAt": "2026-03-25T16:45:00Z"
+    }
+  ],
+  "contactMessages": [
+    {
+      "_id": "msg_001",
+      "name": "Sunita Kapoor",
+      "email": "sunita.k@example.com",
+      "phone": "+91 98200 11223",
+      "subject": "Palace wedding inquiry for December 2026",
+      "message": "We are planning an intimate 50-guest destination wedding in Jaipur and would love to check full estate reservation rates.",
+      "status": "in_review",
+      "createdAt": "2026-03-18T14:10:00Z"
+    }
+  ],
+  "offers": [
+    {
+      "_id": "off_welcome20",
+      "code": "ASVILLA20",
+      "title": "Grand Welcome Privilege",
+      "description": "Receive 20% savings on bookings over ₹25,000 across all luxury heritage suites.",
+      "discountPercent": 20,
+      "maxDiscount": 10000,
+      "minBookingAmount": 25000,
+      "validUntil": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "_id": "off_palace15",
+      "code": "ROYAL15",
+      "title": "Royal Heritage Escapes",
+      "description": "Enjoy 15% instant savings on palatial villas in Jaipur, Varanasi, and Agra.",
+      "discountPercent": 15,
+      "maxDiscount": 7500,
+      "minBookingAmount": 15000,
+      "validUntil": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "_id": "off_summer10",
+      "code": "COMFORT10",
+      "title": "Comfort First Stays",
+      "description": "Flat 10% discount on all retreats with complimentary daily champagne breakfast.",
+      "discountPercent": 10,
+      "maxDiscount": 5000,
+      "minBookingAmount": 10000,
+      "validUntil": "2026-12-31",
+      "isActive": true
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif_host_mvfbyu5b_klrh",
+      "bookingId": "bk_mvfbyu4s_btbw",
+      "bookingReference": "ASV-2026-5129",
+      "recipientEmail": "host.brijrama@asvilla.com",
+      "recipientName": "Pandit Shailendra Nath Mishra",
+      "recipientRole": "hotel_owner",
+      "subject": "[ASVILLA NEW GUEST RESERVATION] ASV-2026-5129 — Aditya Roy (1 Room)",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>[ASVILLA] Booking Confirmation — ASV-2026-5129 at Brijrama Heritage Palace</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f1ede6; margin: 0; padding: 24px; color: #1e293b; }\n    .container { max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #e2dcd2; }\n    .header { background: #0B132B; padding: 32px 28px; text-align: center; border-bottom: 4px solid #D4AF37; }\n    .brand { font-family: Georgia, serif; font-size: 26px; font-weight: bold; letter-spacing: 0.25em; color: #ffffff; margin: 0; }\n    .tagline { color: #D4AF37; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 6px; }\n    .banner { padding: 18px 28px; background: #fef3c7; border-bottom: 1px solid #fde68a; }\n    .banner-title { font-weight: bold; font-size: 15px; color: #92400e; margin: 0 0 4px 0; }\n    .banner-sub { font-size: 12px; color: #b45309; margin: 0; }\n    .body-content { padding: 28px; }\n    .ref-badge { display: inline-block; background: #0B132B; color: #D4AF37; font-family: monospace; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 6px; letter-spacing: 1px; }\n    .section-title { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #8C6D23; margin: 24px 0 12px 0; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }\n    .card { background: #faf8f5; border: 1px solid #e8e2d8; border-radius: 12px; padding: 18px; margin-bottom: 18px; }\n    .grid { display: table; width: 100%; margin-top: 10px; }\n    .grid-row { display: table-row; }\n    .grid-cell { display: table-cell; padding: 6px 0; font-size: 13px; vertical-align: top; }\n    .label { color: #64748b; width: 40%; font-weight: 500; }\n    .value { color: #0f172a; font-weight: 600; text-align: right; }\n    .host-box { background: #fdfbf7; border: 1px solid #d4af3740; border-left: 4px solid #D4AF37; border-radius: 8px; padding: 16px; margin: 16px 0; }\n    .host-name { font-weight: bold; font-size: 14px; color: #0B132B; }\n    .host-role { font-size: 12px; color: #8C6D23; margin-bottom: 8px; }\n    .host-contact { font-size: 12px; color: #334155; line-height: 1.6; }\n    .host-contact a { color: #0B132B; font-weight: 600; text-decoration: none; }\n    .total-row { font-size: 16px; font-weight: bold; color: #047857; border-top: 2px solid #e2e8f0; padding-top: 10px; margin-top: 8px; }\n    .footer { background: #070B19; color: #94a3b8; padding: 24px 28px; text-align: center; font-size: 11px; line-height: 1.6; }\n    .footer a { color: #D4AF37; text-decoration: none; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"brand\">ASVILLA</div>\n      <div class=\"tagline\">Your Stay &middot; Your Comfort &middot; Your Way</div>\n    </div>\n\n    <!-- Banner -->\n    <div class=\"banner\">\n      <div class=\"banner-title\">✓ Reservation Placed · Pay at Hotel (COD)</div>\n      <div class=\"banner-sub\">\n        Settlement due at check-in: INR 1,01,389. Cash, UPI, or Cards accepted at the front desk.\n      </div>\n    </div>\n\n    <!-- Content -->\n    <div class=\"body-content\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;\">\n        <div>\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Booking Reference</span>\n          <span class=\"ref-badge\">ASV-2026-5129</span>\n        </div>\n        <div style=\"text-align: right;\">\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Date Issued</span>\n          <span style=\"font-size: 12px; font-weight: 600; color: #334155;\">19 Oct 2026</span>\n        </div>\n      </div>\n\n      <p style=\"font-size: 14px; line-height: 1.6; color: #334155;\">\n        Dear <strong>Aditya Roy</strong>,<br>\n        Thank you for choosing ASVILLA for your upcoming stay. Your room reservation at <strong>Brijrama Heritage Palace</strong> is safely booked.\n      </p>\n\n      <!-- Hotel & Stay Card -->\n      <div class=\"card\">\n        <div style=\"font-size: 11px; font-weight: bold; color: #D4AF37; text-transform: uppercase; letter-spacing: 0.1em;\">Sanctuary & Destination</div>\n        <div style=\"font-family: Georgia, serif; font-size: 18px; font-weight: bold; color: #0B132B; margin-top: 4px;\">Brijrama Heritage Palace</div>\n        <div style=\"font-size: 12px; color: #64748b; margin-top: 2px;\">📍 Darbhanga Ghat, Dashashwamedh, Varanasi, Uttar Pradesh, India - 221001</div>\n        \n        <div class=\"grid\" style=\"margin-top: 14px; border-top: 1px solid #e8e2d8; padding-top: 10px;\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Suite Category:</div>\n            <div class=\"grid-cell value\">Maharaja Ghat View Suite (Royal King Bed)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-in Date:</div>\n            <div class=\"grid-cell value\">2026-11-01 (from 14:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-out Date:</div>\n            <div class=\"grid-cell value\">2026-11-04 (until 12:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Duration & Occupancy:</div>\n            <div class=\"grid-cell value\">3 Nights &middot; 1 Room(s) &middot; 2 Guests</div>\n          </div>\n          \n        </div>\n      </div>\n\n      <!-- Hotel Owner / Property Host Section -->\n      <div class=\"section-title\">Property Host & Arrival Assistance</div>\n      <div class=\"host-box\">\n        <div class=\"host-name\">👤 Pandit Shailendra Nath Mishra <span style=\"display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-left: 6px;\">✓ Verified Host</span></div>\n        <div class=\"host-role\">Heritage Custodian & Resident Palace Host &middot; Experience: 22+ Years</div>\n        <div class=\"host-contact\">\n          <div>📞 <strong>Direct Host Mobile:</strong> <a href=\"tel:+91 98390 41285\">+91 98390 41285</a></div>\n          <div>☎️ <strong>Front Reception Desk:</strong> <a href=\"tel:+91 542 245 1010\">+91 542 245 1010</a></div>\n          <div>✉️ <strong>Official Property Email:</strong> <a href=\"mailto:host.brijrama@asvilla.com\">host.brijrama@asvilla.com</a></div>\n          <div style=\"margin-top: 8px; padding-top: 8px; border-top: 1px dashed #d4af3740;\">\n            🛎️ <strong>Arrival Instructions:</strong><br>\n            <span style=\"color: #475569; font-size: 12px;\">Private royal Bajra boat will await you at Rajghat or Assi Ghat jetty with liveried luggage porters. Classical sitar welcome and royal saffron thandai served upon arrival at Darbhanga Ghat.</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Itemized Price Breakdown -->\n      <div class=\"section-title\">Itemized Price Breakdown</div>\n      <div class=\"card\">\n        <div class=\"grid\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Room Charges (3N &times; 1R):</div>\n            <div class=\"grid-cell value\">₹85,500</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Goods & Services Tax (12% GST):</div>\n            <div class=\"grid-cell value\">₹15,390</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Concierge & Heritage Service Fee:</div>\n            <div class=\"grid-cell value\">₹499</div>\n          </div>\n          \n          <div class=\"grid-row\">\n            <div class=\"grid-cell label total-row\">Total Payable at Check-in:</div>\n            <div class=\"grid-cell value total-row\">INR ₹1,01,389</div>\n          </div>\n        </div>\n      </div>\n\n      <!-- Cancellation Policy -->\n      <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px; font-size: 12px; color: #475569;\">\n        <strong>Cancellation Policy:</strong> Free cancellation up to 48 hours before check-in. Non-refundable thereafter.\n      </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer\">\n      <div style=\"font-weight: bold; color: #ffffff; margin-bottom: 4px;\">ASVILLA Luxury Concierge Reservations</div>\n      <div>Direct Line: +91 1800 278 4552 &middot; Email: <a href=\"mailto:reservations@asvilla.com\">reservations@asvilla.com</a></div>\n      <div style=\"margin-top: 8px; color: #64748b;\">This email confirmation serves as your digital stay voucher. Please carry a copy on your mobile device.</div>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "ASVILLA — LUXURY HOTEL & RESERVATION CONFIRMATION\nReference: ASV-2026-5129\n\nDear Aditya Roy,\n\nThank you for choosing ASVILLA. Your stay at Brijrama Heritage Palace has been successfully registered.\n\nRESERVATION DETAILS:\n- Hotel: Brijrama Heritage Palace\n- Address: Darbhanga Ghat, Dashashwamedh, Varanasi, India\n- Room: Maharaja Ghat View Suite\n- Check-in: 2026-11-01 (From 14:00)\n- Check-out: 2026-11-04 (Until 12:00)\n- Nights: 3 | Rooms: 1 | Guests: 2\n- Payment Method: Pay at Hotel (Cash on Delivery / COD)\n- Total Amount: INR 1,01,389\n\nPROPERTY HOST & ARRIVAL CONTACT:\n- Host / Manager: Pandit Shailendra Nath Mishra (Heritage Custodian & Resident Palace Host)\n- Direct Host Mobile: +91 98390 41285\n- Direct Reception Desk: +91 542 245 1010\n- Official Host Email: host.brijrama@asvilla.com\n- Check-in Instructions: Private royal Bajra boat will await you at Rajghat or Assi Ghat jetty with liveried luggage porters. Classical sitar welcome and royal saffron thandai served upon arrival at Darbhanga Ghat.\n\nCANCELLATION POLICY:\nFree cancellation up to 48 hours before check-in. Non-refundable thereafter.\n\n24/7 ASVILLA Concierge Desk: reservations@asvilla.com | +91 1800 278 4552\nYour Stay, Your Comfort, Your Way.",
+      "status": "delivered",
+      "type": "booking_confirmation",
+      "sentAt": "2026-10-19T14:09:16.319Z"
+    },
+    {
+      "_id": "notif_guest_mvfbyu5b_wxel",
+      "bookingId": "bk_mvfbyu4s_btbw",
+      "bookingReference": "ASV-2026-5129",
+      "recipientEmail": "aditya.roy@example.com",
+      "recipientName": "Aditya Roy",
+      "recipientRole": "guest",
+      "subject": "[ASVILLA] Booking Confirmation — ASV-2026-5129 at Brijrama Heritage Palace",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>[ASVILLA] Booking Confirmation — ASV-2026-5129 at Brijrama Heritage Palace</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f1ede6; margin: 0; padding: 24px; color: #1e293b; }\n    .container { max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #e2dcd2; }\n    .header { background: #0B132B; padding: 32px 28px; text-align: center; border-bottom: 4px solid #D4AF37; }\n    .brand { font-family: Georgia, serif; font-size: 26px; font-weight: bold; letter-spacing: 0.25em; color: #ffffff; margin: 0; }\n    .tagline { color: #D4AF37; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 6px; }\n    .banner { padding: 18px 28px; background: #fef3c7; border-bottom: 1px solid #fde68a; }\n    .banner-title { font-weight: bold; font-size: 15px; color: #92400e; margin: 0 0 4px 0; }\n    .banner-sub { font-size: 12px; color: #b45309; margin: 0; }\n    .body-content { padding: 28px; }\n    .ref-badge { display: inline-block; background: #0B132B; color: #D4AF37; font-family: monospace; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 6px; letter-spacing: 1px; }\n    .section-title { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #8C6D23; margin: 24px 0 12px 0; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }\n    .card { background: #faf8f5; border: 1px solid #e8e2d8; border-radius: 12px; padding: 18px; margin-bottom: 18px; }\n    .grid { display: table; width: 100%; margin-top: 10px; }\n    .grid-row { display: table-row; }\n    .grid-cell { display: table-cell; padding: 6px 0; font-size: 13px; vertical-align: top; }\n    .label { color: #64748b; width: 40%; font-weight: 500; }\n    .value { color: #0f172a; font-weight: 600; text-align: right; }\n    .host-box { background: #fdfbf7; border: 1px solid #d4af3740; border-left: 4px solid #D4AF37; border-radius: 8px; padding: 16px; margin: 16px 0; }\n    .host-name { font-weight: bold; font-size: 14px; color: #0B132B; }\n    .host-role { font-size: 12px; color: #8C6D23; margin-bottom: 8px; }\n    .host-contact { font-size: 12px; color: #334155; line-height: 1.6; }\n    .host-contact a { color: #0B132B; font-weight: 600; text-decoration: none; }\n    .total-row { font-size: 16px; font-weight: bold; color: #047857; border-top: 2px solid #e2e8f0; padding-top: 10px; margin-top: 8px; }\n    .footer { background: #070B19; color: #94a3b8; padding: 24px 28px; text-align: center; font-size: 11px; line-height: 1.6; }\n    .footer a { color: #D4AF37; text-decoration: none; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"brand\">ASVILLA</div>\n      <div class=\"tagline\">Your Stay &middot; Your Comfort &middot; Your Way</div>\n    </div>\n\n    <!-- Banner -->\n    <div class=\"banner\">\n      <div class=\"banner-title\">✓ Reservation Placed · Pay at Hotel (COD)</div>\n      <div class=\"banner-sub\">\n        Settlement due at check-in: INR 1,01,389. Cash, UPI, or Cards accepted at the front desk.\n      </div>\n    </div>\n\n    <!-- Content -->\n    <div class=\"body-content\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;\">\n        <div>\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Booking Reference</span>\n          <span class=\"ref-badge\">ASV-2026-5129</span>\n        </div>\n        <div style=\"text-align: right;\">\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Date Issued</span>\n          <span style=\"font-size: 12px; font-weight: 600; color: #334155;\">19 Oct 2026</span>\n        </div>\n      </div>\n\n      <p style=\"font-size: 14px; line-height: 1.6; color: #334155;\">\n        Dear <strong>Aditya Roy</strong>,<br>\n        Thank you for choosing ASVILLA for your upcoming stay. Your room reservation at <strong>Brijrama Heritage Palace</strong> is safely booked.\n      </p>\n\n      <!-- Hotel & Stay Card -->\n      <div class=\"card\">\n        <div style=\"font-size: 11px; font-weight: bold; color: #D4AF37; text-transform: uppercase; letter-spacing: 0.1em;\">Sanctuary & Destination</div>\n        <div style=\"font-family: Georgia, serif; font-size: 18px; font-weight: bold; color: #0B132B; margin-top: 4px;\">Brijrama Heritage Palace</div>\n        <div style=\"font-size: 12px; color: #64748b; margin-top: 2px;\">📍 Darbhanga Ghat, Dashashwamedh, Varanasi, Uttar Pradesh, India - 221001</div>\n        \n        <div class=\"grid\" style=\"margin-top: 14px; border-top: 1px solid #e8e2d8; padding-top: 10px;\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Suite Category:</div>\n            <div class=\"grid-cell value\">Maharaja Ghat View Suite (Royal King Bed)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-in Date:</div>\n            <div class=\"grid-cell value\">2026-11-01 (from 14:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-out Date:</div>\n            <div class=\"grid-cell value\">2026-11-04 (until 12:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Duration & Occupancy:</div>\n            <div class=\"grid-cell value\">3 Nights &middot; 1 Room(s) &middot; 2 Guests</div>\n          </div>\n          \n        </div>\n      </div>\n\n      <!-- Hotel Owner / Property Host Section -->\n      <div class=\"section-title\">Property Host & Arrival Assistance</div>\n      <div class=\"host-box\">\n        <div class=\"host-name\">👤 Pandit Shailendra Nath Mishra <span style=\"display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-left: 6px;\">✓ Verified Host</span></div>\n        <div class=\"host-role\">Heritage Custodian & Resident Palace Host &middot; Experience: 22+ Years</div>\n        <div class=\"host-contact\">\n          <div>📞 <strong>Direct Host Mobile:</strong> <a href=\"tel:+91 98390 41285\">+91 98390 41285</a></div>\n          <div>☎️ <strong>Front Reception Desk:</strong> <a href=\"tel:+91 542 245 1010\">+91 542 245 1010</a></div>\n          <div>✉️ <strong>Official Property Email:</strong> <a href=\"mailto:host.brijrama@asvilla.com\">host.brijrama@asvilla.com</a></div>\n          <div style=\"margin-top: 8px; padding-top: 8px; border-top: 1px dashed #d4af3740;\">\n            🛎️ <strong>Arrival Instructions:</strong><br>\n            <span style=\"color: #475569; font-size: 12px;\">Private royal Bajra boat will await you at Rajghat or Assi Ghat jetty with liveried luggage porters. Classical sitar welcome and royal saffron thandai served upon arrival at Darbhanga Ghat.</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Itemized Price Breakdown -->\n      <div class=\"section-title\">Itemized Price Breakdown</div>\n      <div class=\"card\">\n        <div class=\"grid\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Room Charges (3N &times; 1R):</div>\n            <div class=\"grid-cell value\">₹85,500</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Goods & Services Tax (12% GST):</div>\n            <div class=\"grid-cell value\">₹15,390</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Concierge & Heritage Service Fee:</div>\n            <div class=\"grid-cell value\">₹499</div>\n          </div>\n          \n          <div class=\"grid-row\">\n            <div class=\"grid-cell label total-row\">Total Payable at Check-in:</div>\n            <div class=\"grid-cell value total-row\">INR ₹1,01,389</div>\n          </div>\n        </div>\n      </div>\n\n      <!-- Cancellation Policy -->\n      <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px; font-size: 12px; color: #475569;\">\n        <strong>Cancellation Policy:</strong> Free cancellation up to 48 hours before check-in. Non-refundable thereafter.\n      </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer\">\n      <div style=\"font-weight: bold; color: #ffffff; margin-bottom: 4px;\">ASVILLA Luxury Concierge Reservations</div>\n      <div>Direct Line: +91 1800 278 4552 &middot; Email: <a href=\"mailto:reservations@asvilla.com\">reservations@asvilla.com</a></div>\n      <div style=\"margin-top: 8px; color: #64748b;\">This email confirmation serves as your digital stay voucher. Please carry a copy on your mobile device.</div>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "ASVILLA — LUXURY HOTEL & RESERVATION CONFIRMATION\nReference: ASV-2026-5129\n\nDear Aditya Roy,\n\nThank you for choosing ASVILLA. Your stay at Brijrama Heritage Palace has been successfully registered.\n\nRESERVATION DETAILS:\n- Hotel: Brijrama Heritage Palace\n- Address: Darbhanga Ghat, Dashashwamedh, Varanasi, India\n- Room: Maharaja Ghat View Suite\n- Check-in: 2026-11-01 (From 14:00)\n- Check-out: 2026-11-04 (Until 12:00)\n- Nights: 3 | Rooms: 1 | Guests: 2\n- Payment Method: Pay at Hotel (Cash on Delivery / COD)\n- Total Amount: INR 1,01,389\n\nPROPERTY HOST & ARRIVAL CONTACT:\n- Host / Manager: Pandit Shailendra Nath Mishra (Heritage Custodian & Resident Palace Host)\n- Direct Host Mobile: +91 98390 41285\n- Direct Reception Desk: +91 542 245 1010\n- Official Host Email: host.brijrama@asvilla.com\n- Check-in Instructions: Private royal Bajra boat will await you at Rajghat or Assi Ghat jetty with liveried luggage porters. Classical sitar welcome and royal saffron thandai served upon arrival at Darbhanga Ghat.\n\nCANCELLATION POLICY:\nFree cancellation up to 48 hours before check-in. Non-refundable thereafter.\n\n24/7 ASVILLA Concierge Desk: reservations@asvilla.com | +91 1800 278 4552\nYour Stay, Your Comfort, Your Way.",
+      "status": "delivered",
+      "type": "booking_confirmation",
+      "sentAt": "2026-10-19T14:09:16.319Z"
+    },
+    {
+      "_id": "notif_host_mvdz7sht_zpn6",
+      "bookingId": "bk_mvdz7it4_hw40",
+      "bookingReference": "ASV-2026-2611",
+      "recipientEmail": "director.rajvilas@asvilla.com",
+      "recipientName": "Kunwar Ranvijay Singh Rathore",
+      "recipientRole": "hotel_owner",
+      "subject": "[ASVILLA NEW GUEST RESERVATION] ASV-2026-2611 — Aarav Sharma (1 Room)",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>[ASVILLA] Booking Confirmation — ASV-2026-2611 at The Rajvilas Oberoi Resort</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f1ede6; margin: 0; padding: 24px; color: #1e293b; }\n    .container { max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #e2dcd2; }\n    .header { background: #0B132B; padding: 32px 28px; text-align: center; border-bottom: 4px solid #D4AF37; }\n    .brand { font-family: Georgia, serif; font-size: 26px; font-weight: bold; letter-spacing: 0.25em; color: #ffffff; margin: 0; }\n    .tagline { color: #D4AF37; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 6px; }\n    .banner { padding: 18px 28px; background: #fef3c7; border-bottom: 1px solid #fde68a; }\n    .banner-title { font-weight: bold; font-size: 15px; color: #92400e; margin: 0 0 4px 0; }\n    .banner-sub { font-size: 12px; color: #b45309; margin: 0; }\n    .body-content { padding: 28px; }\n    .ref-badge { display: inline-block; background: #0B132B; color: #D4AF37; font-family: monospace; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 6px; letter-spacing: 1px; }\n    .section-title { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #8C6D23; margin: 24px 0 12px 0; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }\n    .card { background: #faf8f5; border: 1px solid #e8e2d8; border-radius: 12px; padding: 18px; margin-bottom: 18px; }\n    .grid { display: table; width: 100%; margin-top: 10px; }\n    .grid-row { display: table-row; }\n    .grid-cell { display: table-cell; padding: 6px 0; font-size: 13px; vertical-align: top; }\n    .label { color: #64748b; width: 40%; font-weight: 500; }\n    .value { color: #0f172a; font-weight: 600; text-align: right; }\n    .host-box { background: #fdfbf7; border: 1px solid #d4af3740; border-left: 4px solid #D4AF37; border-radius: 8px; padding: 16px; margin: 16px 0; }\n    .host-name { font-weight: bold; font-size: 14px; color: #0B132B; }\n    .host-role { font-size: 12px; color: #8C6D23; margin-bottom: 8px; }\n    .host-contact { font-size: 12px; color: #334155; line-height: 1.6; }\n    .host-contact a { color: #0B132B; font-weight: 600; text-decoration: none; }\n    .total-row { font-size: 16px; font-weight: bold; color: #047857; border-top: 2px solid #e2e8f0; padding-top: 10px; margin-top: 8px; }\n    .footer { background: #070B19; color: #94a3b8; padding: 24px 28px; text-align: center; font-size: 11px; line-height: 1.6; }\n    .footer a { color: #D4AF37; text-decoration: none; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"brand\">ASVILLA</div>\n      <div class=\"tagline\">Your Stay &middot; Your Comfort &middot; Your Way</div>\n    </div>\n\n    <!-- Banner -->\n    <div class=\"banner\">\n      <div class=\"banner-title\">✓ Reservation Placed · Pay at Hotel (COD)</div>\n      <div class=\"banner-sub\">\n        Settlement due at check-in: INR 88,860. Cash, UPI, or Cards accepted at the front desk.\n      </div>\n    </div>\n\n    <!-- Content -->\n    <div class=\"body-content\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;\">\n        <div>\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Booking Reference</span>\n          <span class=\"ref-badge\">ASV-2026-2611</span>\n        </div>\n        <div style=\"text-align: right;\">\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Date Issued</span>\n          <span style=\"font-size: 12px; font-weight: 600; color: #334155;\">18 Oct 2026</span>\n        </div>\n      </div>\n\n      <p style=\"font-size: 14px; line-height: 1.6; color: #334155;\">\n        Dear <strong>Aarav Sharma</strong>,<br>\n        Thank you for choosing ASVILLA for your upcoming stay. Your room reservation at <strong>The Rajvilas Oberoi Resort</strong> is safely booked.\n      </p>\n\n      <!-- Hotel & Stay Card -->\n      <div class=\"card\">\n        <div style=\"font-size: 11px; font-weight: bold; color: #D4AF37; text-transform: uppercase; letter-spacing: 0.1em;\">Sanctuary & Destination</div>\n        <div style=\"font-family: Georgia, serif; font-size: 18px; font-weight: bold; color: #0B132B; margin-top: 4px;\">The Rajvilas Oberoi Resort</div>\n        <div style=\"font-size: 12px; color: #64748b; margin-top: 2px;\">📍 Goner Road, Babaji Ka Modh, Jaipur, Rajasthan, India - 302031</div>\n        \n        <div class=\"grid\" style=\"margin-top: 14px; border-top: 1px solid #e8e2d8; padding-top: 10px;\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Suite Category:</div>\n            <div class=\"grid-cell value\">Royal Tent with Private Garden (Four-Poster King Bed)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-in Date:</div>\n            <div class=\"grid-cell value\">2026-11-10 (from 14:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-out Date:</div>\n            <div class=\"grid-cell value\">2026-11-12 (until 12:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Duration & Occupancy:</div>\n            <div class=\"grid-cell value\">2 Nights &middot; 1 Room(s) &middot; 2 Guests</div>\n          </div>\n          \n        </div>\n      </div>\n\n      <!-- Hotel Owner / Property Host Section -->\n      <div class=\"section-title\">Property Host & Arrival Assistance</div>\n      <div class=\"host-box\">\n        <div class=\"host-name\">👤 Kunwar Ranvijay Singh Rathore <span style=\"display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-left: 6px;\">✓ Verified Host</span></div>\n        <div class=\"host-role\">Estate Director & Royal Rajput Host &middot; Experience: 19+ Years</div>\n        <div class=\"host-contact\">\n          <div>📞 <strong>Direct Host Mobile:</strong> <a href=\"tel:+91 98290 88214\">+91 98290 88214</a></div>\n          <div>☎️ <strong>Front Reception Desk:</strong> <a href=\"tel:+91 141 268 0101\">+91 141 268 0101</a></div>\n          <div>✉️ <strong>Official Property Email:</strong> <a href=\"mailto:director.rajvilas@asvilla.com\">director.rajvilas@asvilla.com</a></div>\n          <div style=\"margin-top: 8px; padding-top: 8px; border-top: 1px dashed #d4af3740;\">\n            🛎️ <strong>Arrival Instructions:</strong><br>\n            <span style=\"color: #475569; font-size: 12px;\">Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Itemized Price Breakdown -->\n      <div class=\"section-title\">Itemized Price Breakdown</div>\n      <div class=\"card\">\n        <div class=\"grid\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Room Charges (2N &times; 1R):</div>\n            <div class=\"grid-cell value\">₹78,000</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Goods & Services Tax (12% GST):</div>\n            <div class=\"grid-cell value\">₹9,360</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Concierge & Heritage Service Fee:</div>\n            <div class=\"grid-cell value\">₹1,500</div>\n          </div>\n          \n          <div class=\"grid-row\">\n            <div class=\"grid-cell label total-row\">Total Payable at Check-in:</div>\n            <div class=\"grid-cell value total-row\">INR ₹88,860</div>\n          </div>\n        </div>\n      </div>\n\n      <!-- Cancellation Policy -->\n      <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px; font-size: 12px; color: #475569;\">\n        <strong>Cancellation Policy:</strong> Free cancellation up to 72 hours before check-in.\n      </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer\">\n      <div style=\"font-weight: bold; color: #ffffff; margin-bottom: 4px;\">ASVILLA Luxury Concierge Reservations</div>\n      <div>Direct Line: +91 1800 278 4552 &middot; Email: <a href=\"mailto:reservations@asvilla.com\">reservations@asvilla.com</a></div>\n      <div style=\"margin-top: 8px; color: #64748b;\">This email confirmation serves as your digital stay voucher. Please carry a copy on your mobile device.</div>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "ASVILLA — LUXURY HOTEL & RESERVATION CONFIRMATION\nReference: ASV-2026-2611\n\nDear Aarav Sharma,\n\nThank you for choosing ASVILLA. Your stay at The Rajvilas Oberoi Resort has been successfully registered.\n\nRESERVATION DETAILS:\n- Hotel: The Rajvilas Oberoi Resort\n- Address: Goner Road, Babaji Ka Modh, Jaipur, India\n- Room: Royal Tent with Private Garden\n- Check-in: 2026-11-10 (From 14:00)\n- Check-out: 2026-11-12 (Until 12:00)\n- Nights: 2 | Rooms: 1 | Guests: 2\n- Payment Method: Pay at Hotel (Cash on Delivery / COD)\n- Total Amount: INR 88,860\n\nPROPERTY HOST & ARRIVAL CONTACT:\n- Host / Manager: Kunwar Ranvijay Singh Rathore (Estate Director & Royal Rajput Host)\n- Direct Host Mobile: +91 98290 88214\n- Direct Reception Desk: +91 141 268 0101\n- Official Host Email: director.rajvilas@asvilla.com\n- Check-in Instructions: Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.\n\nCANCELLATION POLICY:\nFree cancellation up to 72 hours before check-in.\n\n24/7 ASVILLA Concierge Desk: reservations@asvilla.com | +91 1800 278 4552\nYour Stay, Your Comfort, Your Way.",
+      "status": "delivered",
+      "type": "booking_confirmation",
+      "sentAt": "2026-10-18T15:24:32.897Z"
+    },
+    {
+      "_id": "notif_guest_mvdz7sht_3xju",
+      "bookingId": "bk_mvdz7it4_hw40",
+      "bookingReference": "ASV-2026-2611",
+      "recipientEmail": "guest@asvilla.com",
+      "recipientName": "Aarav Sharma",
+      "recipientRole": "guest",
+      "subject": "[ASVILLA] Booking Confirmation — ASV-2026-2611 at The Rajvilas Oberoi Resort",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>[ASVILLA] Booking Confirmation — ASV-2026-2611 at The Rajvilas Oberoi Resort</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f1ede6; margin: 0; padding: 24px; color: #1e293b; }\n    .container { max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #e2dcd2; }\n    .header { background: #0B132B; padding: 32px 28px; text-align: center; border-bottom: 4px solid #D4AF37; }\n    .brand { font-family: Georgia, serif; font-size: 26px; font-weight: bold; letter-spacing: 0.25em; color: #ffffff; margin: 0; }\n    .tagline { color: #D4AF37; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 6px; }\n    .banner { padding: 18px 28px; background: #fef3c7; border-bottom: 1px solid #fde68a; }\n    .banner-title { font-weight: bold; font-size: 15px; color: #92400e; margin: 0 0 4px 0; }\n    .banner-sub { font-size: 12px; color: #b45309; margin: 0; }\n    .body-content { padding: 28px; }\n    .ref-badge { display: inline-block; background: #0B132B; color: #D4AF37; font-family: monospace; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 6px; letter-spacing: 1px; }\n    .section-title { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #8C6D23; margin: 24px 0 12px 0; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }\n    .card { background: #faf8f5; border: 1px solid #e8e2d8; border-radius: 12px; padding: 18px; margin-bottom: 18px; }\n    .grid { display: table; width: 100%; margin-top: 10px; }\n    .grid-row { display: table-row; }\n    .grid-cell { display: table-cell; padding: 6px 0; font-size: 13px; vertical-align: top; }\n    .label { color: #64748b; width: 40%; font-weight: 500; }\n    .value { color: #0f172a; font-weight: 600; text-align: right; }\n    .host-box { background: #fdfbf7; border: 1px solid #d4af3740; border-left: 4px solid #D4AF37; border-radius: 8px; padding: 16px; margin: 16px 0; }\n    .host-name { font-weight: bold; font-size: 14px; color: #0B132B; }\n    .host-role { font-size: 12px; color: #8C6D23; margin-bottom: 8px; }\n    .host-contact { font-size: 12px; color: #334155; line-height: 1.6; }\n    .host-contact a { color: #0B132B; font-weight: 600; text-decoration: none; }\n    .total-row { font-size: 16px; font-weight: bold; color: #047857; border-top: 2px solid #e2e8f0; padding-top: 10px; margin-top: 8px; }\n    .footer { background: #070B19; color: #94a3b8; padding: 24px 28px; text-align: center; font-size: 11px; line-height: 1.6; }\n    .footer a { color: #D4AF37; text-decoration: none; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"brand\">ASVILLA</div>\n      <div class=\"tagline\">Your Stay &middot; Your Comfort &middot; Your Way</div>\n    </div>\n\n    <!-- Banner -->\n    <div class=\"banner\">\n      <div class=\"banner-title\">✓ Reservation Placed · Pay at Hotel (COD)</div>\n      <div class=\"banner-sub\">\n        Settlement due at check-in: INR 88,860. Cash, UPI, or Cards accepted at the front desk.\n      </div>\n    </div>\n\n    <!-- Content -->\n    <div class=\"body-content\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;\">\n        <div>\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Booking Reference</span>\n          <span class=\"ref-badge\">ASV-2026-2611</span>\n        </div>\n        <div style=\"text-align: right;\">\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Date Issued</span>\n          <span style=\"font-size: 12px; font-weight: 600; color: #334155;\">18 Oct 2026</span>\n        </div>\n      </div>\n\n      <p style=\"font-size: 14px; line-height: 1.6; color: #334155;\">\n        Dear <strong>Aarav Sharma</strong>,<br>\n        Thank you for choosing ASVILLA for your upcoming stay. Your room reservation at <strong>The Rajvilas Oberoi Resort</strong> is safely booked.\n      </p>\n\n      <!-- Hotel & Stay Card -->\n      <div class=\"card\">\n        <div style=\"font-size: 11px; font-weight: bold; color: #D4AF37; text-transform: uppercase; letter-spacing: 0.1em;\">Sanctuary & Destination</div>\n        <div style=\"font-family: Georgia, serif; font-size: 18px; font-weight: bold; color: #0B132B; margin-top: 4px;\">The Rajvilas Oberoi Resort</div>\n        <div style=\"font-size: 12px; color: #64748b; margin-top: 2px;\">📍 Goner Road, Babaji Ka Modh, Jaipur, Rajasthan, India - 302031</div>\n        \n        <div class=\"grid\" style=\"margin-top: 14px; border-top: 1px solid #e8e2d8; padding-top: 10px;\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Suite Category:</div>\n            <div class=\"grid-cell value\">Royal Tent with Private Garden (Four-Poster King Bed)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-in Date:</div>\n            <div class=\"grid-cell value\">2026-11-10 (from 14:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-out Date:</div>\n            <div class=\"grid-cell value\">2026-11-12 (until 12:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Duration & Occupancy:</div>\n            <div class=\"grid-cell value\">2 Nights &middot; 1 Room(s) &middot; 2 Guests</div>\n          </div>\n          \n        </div>\n      </div>\n\n      <!-- Hotel Owner / Property Host Section -->\n      <div class=\"section-title\">Property Host & Arrival Assistance</div>\n      <div class=\"host-box\">\n        <div class=\"host-name\">👤 Kunwar Ranvijay Singh Rathore <span style=\"display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-left: 6px;\">✓ Verified Host</span></div>\n        <div class=\"host-role\">Estate Director & Royal Rajput Host &middot; Experience: 19+ Years</div>\n        <div class=\"host-contact\">\n          <div>📞 <strong>Direct Host Mobile:</strong> <a href=\"tel:+91 98290 88214\">+91 98290 88214</a></div>\n          <div>☎️ <strong>Front Reception Desk:</strong> <a href=\"tel:+91 141 268 0101\">+91 141 268 0101</a></div>\n          <div>✉️ <strong>Official Property Email:</strong> <a href=\"mailto:director.rajvilas@asvilla.com\">director.rajvilas@asvilla.com</a></div>\n          <div style=\"margin-top: 8px; padding-top: 8px; border-top: 1px dashed #d4af3740;\">\n            🛎️ <strong>Arrival Instructions:</strong><br>\n            <span style=\"color: #475569; font-size: 12px;\">Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Itemized Price Breakdown -->\n      <div class=\"section-title\">Itemized Price Breakdown</div>\n      <div class=\"card\">\n        <div class=\"grid\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Room Charges (2N &times; 1R):</div>\n            <div class=\"grid-cell value\">₹78,000</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Goods & Services Tax (12% GST):</div>\n            <div class=\"grid-cell value\">₹9,360</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Concierge & Heritage Service Fee:</div>\n            <div class=\"grid-cell value\">₹1,500</div>\n          </div>\n          \n          <div class=\"grid-row\">\n            <div class=\"grid-cell label total-row\">Total Payable at Check-in:</div>\n            <div class=\"grid-cell value total-row\">INR ₹88,860</div>\n          </div>\n        </div>\n      </div>\n\n      <!-- Cancellation Policy -->\n      <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px; font-size: 12px; color: #475569;\">\n        <strong>Cancellation Policy:</strong> Free cancellation up to 72 hours before check-in.\n      </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer\">\n      <div style=\"font-weight: bold; color: #ffffff; margin-bottom: 4px;\">ASVILLA Luxury Concierge Reservations</div>\n      <div>Direct Line: +91 1800 278 4552 &middot; Email: <a href=\"mailto:reservations@asvilla.com\">reservations@asvilla.com</a></div>\n      <div style=\"margin-top: 8px; color: #64748b;\">This email confirmation serves as your digital stay voucher. Please carry a copy on your mobile device.</div>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "ASVILLA — LUXURY HOTEL & RESERVATION CONFIRMATION\nReference: ASV-2026-2611\n\nDear Aarav Sharma,\n\nThank you for choosing ASVILLA. Your stay at The Rajvilas Oberoi Resort has been successfully registered.\n\nRESERVATION DETAILS:\n- Hotel: The Rajvilas Oberoi Resort\n- Address: Goner Road, Babaji Ka Modh, Jaipur, India\n- Room: Royal Tent with Private Garden\n- Check-in: 2026-11-10 (From 14:00)\n- Check-out: 2026-11-12 (Until 12:00)\n- Nights: 2 | Rooms: 1 | Guests: 2\n- Payment Method: Pay at Hotel (Cash on Delivery / COD)\n- Total Amount: INR 88,860\n\nPROPERTY HOST & ARRIVAL CONTACT:\n- Host / Manager: Kunwar Ranvijay Singh Rathore (Estate Director & Royal Rajput Host)\n- Direct Host Mobile: +91 98290 88214\n- Direct Reception Desk: +91 141 268 0101\n- Official Host Email: director.rajvilas@asvilla.com\n- Check-in Instructions: Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.\n\nCANCELLATION POLICY:\nFree cancellation up to 72 hours before check-in.\n\n24/7 ASVILLA Concierge Desk: reservations@asvilla.com | +91 1800 278 4552\nYour Stay, Your Comfort, Your Way.",
+      "status": "delivered",
+      "type": "booking_confirmation",
+      "sentAt": "2026-10-18T15:24:32.897Z"
+    },
+    {
+      "_id": "notif_host_mvdz7itd_4ax5",
+      "bookingId": "bk_mvdz7it4_hw40",
+      "bookingReference": "ASV-2026-2611",
+      "recipientEmail": "director.rajvilas@asvilla.com",
+      "recipientName": "Kunwar Ranvijay Singh Rathore",
+      "recipientRole": "hotel_owner",
+      "subject": "[ASVILLA NEW GUEST RESERVATION] ASV-2026-2611 — Aarav Sharma (1 Room)",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>[ASVILLA] Booking Confirmation — ASV-2026-2611 at The Rajvilas Oberoi Resort</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f1ede6; margin: 0; padding: 24px; color: #1e293b; }\n    .container { max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #e2dcd2; }\n    .header { background: #0B132B; padding: 32px 28px; text-align: center; border-bottom: 4px solid #D4AF37; }\n    .brand { font-family: Georgia, serif; font-size: 26px; font-weight: bold; letter-spacing: 0.25em; color: #ffffff; margin: 0; }\n    .tagline { color: #D4AF37; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 6px; }\n    .banner { padding: 18px 28px; background: #fef3c7; border-bottom: 1px solid #fde68a; }\n    .banner-title { font-weight: bold; font-size: 15px; color: #92400e; margin: 0 0 4px 0; }\n    .banner-sub { font-size: 12px; color: #b45309; margin: 0; }\n    .body-content { padding: 28px; }\n    .ref-badge { display: inline-block; background: #0B132B; color: #D4AF37; font-family: monospace; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 6px; letter-spacing: 1px; }\n    .section-title { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #8C6D23; margin: 24px 0 12px 0; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }\n    .card { background: #faf8f5; border: 1px solid #e8e2d8; border-radius: 12px; padding: 18px; margin-bottom: 18px; }\n    .grid { display: table; width: 100%; margin-top: 10px; }\n    .grid-row { display: table-row; }\n    .grid-cell { display: table-cell; padding: 6px 0; font-size: 13px; vertical-align: top; }\n    .label { color: #64748b; width: 40%; font-weight: 500; }\n    .value { color: #0f172a; font-weight: 600; text-align: right; }\n    .host-box { background: #fdfbf7; border: 1px solid #d4af3740; border-left: 4px solid #D4AF37; border-radius: 8px; padding: 16px; margin: 16px 0; }\n    .host-name { font-weight: bold; font-size: 14px; color: #0B132B; }\n    .host-role { font-size: 12px; color: #8C6D23; margin-bottom: 8px; }\n    .host-contact { font-size: 12px; color: #334155; line-height: 1.6; }\n    .host-contact a { color: #0B132B; font-weight: 600; text-decoration: none; }\n    .total-row { font-size: 16px; font-weight: bold; color: #047857; border-top: 2px solid #e2e8f0; padding-top: 10px; margin-top: 8px; }\n    .footer { background: #070B19; color: #94a3b8; padding: 24px 28px; text-align: center; font-size: 11px; line-height: 1.6; }\n    .footer a { color: #D4AF37; text-decoration: none; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"brand\">ASVILLA</div>\n      <div class=\"tagline\">Your Stay &middot; Your Comfort &middot; Your Way</div>\n    </div>\n\n    <!-- Banner -->\n    <div class=\"banner\">\n      <div class=\"banner-title\">✓ Reservation Placed · Pay at Hotel (COD)</div>\n      <div class=\"banner-sub\">\n        Settlement due at check-in: INR 88,860. Cash, UPI, or Cards accepted at the front desk.\n      </div>\n    </div>\n\n    <!-- Content -->\n    <div class=\"body-content\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;\">\n        <div>\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Booking Reference</span>\n          <span class=\"ref-badge\">ASV-2026-2611</span>\n        </div>\n        <div style=\"text-align: right;\">\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Date Issued</span>\n          <span style=\"font-size: 12px; font-weight: 600; color: #334155;\">18 Oct 2026</span>\n        </div>\n      </div>\n\n      <p style=\"font-size: 14px; line-height: 1.6; color: #334155;\">\n        Dear <strong>Aarav Sharma</strong>,<br>\n        Thank you for choosing ASVILLA for your upcoming stay. Your room reservation at <strong>The Rajvilas Oberoi Resort</strong> is safely booked.\n      </p>\n\n      <!-- Hotel & Stay Card -->\n      <div class=\"card\">\n        <div style=\"font-size: 11px; font-weight: bold; color: #D4AF37; text-transform: uppercase; letter-spacing: 0.1em;\">Sanctuary & Destination</div>\n        <div style=\"font-family: Georgia, serif; font-size: 18px; font-weight: bold; color: #0B132B; margin-top: 4px;\">The Rajvilas Oberoi Resort</div>\n        <div style=\"font-size: 12px; color: #64748b; margin-top: 2px;\">📍 Goner Road, Babaji Ka Modh, Jaipur, Rajasthan, India - 302031</div>\n        \n        <div class=\"grid\" style=\"margin-top: 14px; border-top: 1px solid #e8e2d8; padding-top: 10px;\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Suite Category:</div>\n            <div class=\"grid-cell value\">Royal Tent with Private Garden (Four-Poster King Bed)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-in Date:</div>\n            <div class=\"grid-cell value\">2026-11-10 (from 14:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-out Date:</div>\n            <div class=\"grid-cell value\">2026-11-12 (until 12:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Duration & Occupancy:</div>\n            <div class=\"grid-cell value\">2 Nights &middot; 1 Room(s) &middot; 2 Guests</div>\n          </div>\n          \n        </div>\n      </div>\n\n      <!-- Hotel Owner / Property Host Section -->\n      <div class=\"section-title\">Property Host & Arrival Assistance</div>\n      <div class=\"host-box\">\n        <div class=\"host-name\">👤 Kunwar Ranvijay Singh Rathore <span style=\"display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-left: 6px;\">✓ Verified Host</span></div>\n        <div class=\"host-role\">Estate Director & Royal Rajput Host &middot; Experience: 19+ Years</div>\n        <div class=\"host-contact\">\n          <div>📞 <strong>Direct Host Mobile:</strong> <a href=\"tel:+91 98290 88214\">+91 98290 88214</a></div>\n          <div>☎️ <strong>Front Reception Desk:</strong> <a href=\"tel:+91 141 268 0101\">+91 141 268 0101</a></div>\n          <div>✉️ <strong>Official Property Email:</strong> <a href=\"mailto:director.rajvilas@asvilla.com\">director.rajvilas@asvilla.com</a></div>\n          <div style=\"margin-top: 8px; padding-top: 8px; border-top: 1px dashed #d4af3740;\">\n            🛎️ <strong>Arrival Instructions:</strong><br>\n            <span style=\"color: #475569; font-size: 12px;\">Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Itemized Price Breakdown -->\n      <div class=\"section-title\">Itemized Price Breakdown</div>\n      <div class=\"card\">\n        <div class=\"grid\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Room Charges (2N &times; 1R):</div>\n            <div class=\"grid-cell value\">₹78,000</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Goods & Services Tax (12% GST):</div>\n            <div class=\"grid-cell value\">₹9,360</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Concierge & Heritage Service Fee:</div>\n            <div class=\"grid-cell value\">₹1,500</div>\n          </div>\n          \n          <div class=\"grid-row\">\n            <div class=\"grid-cell label total-row\">Total Payable at Check-in:</div>\n            <div class=\"grid-cell value total-row\">INR ₹88,860</div>\n          </div>\n        </div>\n      </div>\n\n      <!-- Cancellation Policy -->\n      <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px; font-size: 12px; color: #475569;\">\n        <strong>Cancellation Policy:</strong> Free cancellation up to 72 hours before check-in.\n      </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer\">\n      <div style=\"font-weight: bold; color: #ffffff; margin-bottom: 4px;\">ASVILLA Luxury Concierge Reservations</div>\n      <div>Direct Line: +91 1800 278 4552 &middot; Email: <a href=\"mailto:reservations@asvilla.com\">reservations@asvilla.com</a></div>\n      <div style=\"margin-top: 8px; color: #64748b;\">This email confirmation serves as your digital stay voucher. Please carry a copy on your mobile device.</div>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "ASVILLA — LUXURY HOTEL & RESERVATION CONFIRMATION\nReference: ASV-2026-2611\n\nDear Aarav Sharma,\n\nThank you for choosing ASVILLA. Your stay at The Rajvilas Oberoi Resort has been successfully registered.\n\nRESERVATION DETAILS:\n- Hotel: The Rajvilas Oberoi Resort\n- Address: Goner Road, Babaji Ka Modh, Jaipur, India\n- Room: Royal Tent with Private Garden\n- Check-in: 2026-11-10 (From 14:00)\n- Check-out: 2026-11-12 (Until 12:00)\n- Nights: 2 | Rooms: 1 | Guests: 2\n- Payment Method: Pay at Hotel (Cash on Delivery / COD)\n- Total Amount: INR 88,860\n\nPROPERTY HOST & ARRIVAL CONTACT:\n- Host / Manager: Kunwar Ranvijay Singh Rathore (Estate Director & Royal Rajput Host)\n- Direct Host Mobile: +91 98290 88214\n- Direct Reception Desk: +91 141 268 0101\n- Official Host Email: director.rajvilas@asvilla.com\n- Check-in Instructions: Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.\n\nCANCELLATION POLICY:\nFree cancellation up to 72 hours before check-in.\n\n24/7 ASVILLA Concierge Desk: reservations@asvilla.com | +91 1800 278 4552\nYour Stay, Your Comfort, Your Way.",
+      "status": "delivered",
+      "type": "booking_confirmation",
+      "sentAt": "2026-10-18T15:24:20.353Z"
+    },
+    {
+      "_id": "notif_guest_mvdz7itd_7gwo",
+      "bookingId": "bk_mvdz7it4_hw40",
+      "bookingReference": "ASV-2026-2611",
+      "recipientEmail": "guest@asvilla.com",
+      "recipientName": "Aarav Sharma",
+      "recipientRole": "guest",
+      "subject": "[ASVILLA] Booking Confirmation — ASV-2026-2611 at The Rajvilas Oberoi Resort",
+      "htmlBody": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>[ASVILLA] Booking Confirmation — ASV-2026-2611 at The Rajvilas Oberoi Resort</title>\n  <style>\n    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f1ede6; margin: 0; padding: 24px; color: #1e293b; }\n    .container { max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: 1px solid #e2dcd2; }\n    .header { background: #0B132B; padding: 32px 28px; text-align: center; border-bottom: 4px solid #D4AF37; }\n    .brand { font-family: Georgia, serif; font-size: 26px; font-weight: bold; letter-spacing: 0.25em; color: #ffffff; margin: 0; }\n    .tagline { color: #D4AF37; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 6px; }\n    .banner { padding: 18px 28px; background: #fef3c7; border-bottom: 1px solid #fde68a; }\n    .banner-title { font-weight: bold; font-size: 15px; color: #92400e; margin: 0 0 4px 0; }\n    .banner-sub { font-size: 12px; color: #b45309; margin: 0; }\n    .body-content { padding: 28px; }\n    .ref-badge { display: inline-block; background: #0B132B; color: #D4AF37; font-family: monospace; font-size: 14px; font-weight: bold; padding: 6px 14px; border-radius: 6px; letter-spacing: 1px; }\n    .section-title { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: #8C6D23; margin: 24px 0 12px 0; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }\n    .card { background: #faf8f5; border: 1px solid #e8e2d8; border-radius: 12px; padding: 18px; margin-bottom: 18px; }\n    .grid { display: table; width: 100%; margin-top: 10px; }\n    .grid-row { display: table-row; }\n    .grid-cell { display: table-cell; padding: 6px 0; font-size: 13px; vertical-align: top; }\n    .label { color: #64748b; width: 40%; font-weight: 500; }\n    .value { color: #0f172a; font-weight: 600; text-align: right; }\n    .host-box { background: #fdfbf7; border: 1px solid #d4af3740; border-left: 4px solid #D4AF37; border-radius: 8px; padding: 16px; margin: 16px 0; }\n    .host-name { font-weight: bold; font-size: 14px; color: #0B132B; }\n    .host-role { font-size: 12px; color: #8C6D23; margin-bottom: 8px; }\n    .host-contact { font-size: 12px; color: #334155; line-height: 1.6; }\n    .host-contact a { color: #0B132B; font-weight: 600; text-decoration: none; }\n    .total-row { font-size: 16px; font-weight: bold; color: #047857; border-top: 2px solid #e2e8f0; padding-top: 10px; margin-top: 8px; }\n    .footer { background: #070B19; color: #94a3b8; padding: 24px 28px; text-align: center; font-size: 11px; line-height: 1.6; }\n    .footer a { color: #D4AF37; text-decoration: none; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"brand\">ASVILLA</div>\n      <div class=\"tagline\">Your Stay &middot; Your Comfort &middot; Your Way</div>\n    </div>\n\n    <!-- Banner -->\n    <div class=\"banner\">\n      <div class=\"banner-title\">✓ Reservation Placed · Pay at Hotel (COD)</div>\n      <div class=\"banner-sub\">\n        Settlement due at check-in: INR 88,860. Cash, UPI, or Cards accepted at the front desk.\n      </div>\n    </div>\n\n    <!-- Content -->\n    <div class=\"body-content\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;\">\n        <div>\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Booking Reference</span>\n          <span class=\"ref-badge\">ASV-2026-2611</span>\n        </div>\n        <div style=\"text-align: right;\">\n          <span style=\"font-size: 11px; text-transform: uppercase; color: #64748b; display: block;\">Date Issued</span>\n          <span style=\"font-size: 12px; font-weight: 600; color: #334155;\">18 Oct 2026</span>\n        </div>\n      </div>\n\n      <p style=\"font-size: 14px; line-height: 1.6; color: #334155;\">\n        Dear <strong>Aarav Sharma</strong>,<br>\n        Thank you for choosing ASVILLA for your upcoming stay. Your room reservation at <strong>The Rajvilas Oberoi Resort</strong> is safely booked.\n      </p>\n\n      <!-- Hotel & Stay Card -->\n      <div class=\"card\">\n        <div style=\"font-size: 11px; font-weight: bold; color: #D4AF37; text-transform: uppercase; letter-spacing: 0.1em;\">Sanctuary & Destination</div>\n        <div style=\"font-family: Georgia, serif; font-size: 18px; font-weight: bold; color: #0B132B; margin-top: 4px;\">The Rajvilas Oberoi Resort</div>\n        <div style=\"font-size: 12px; color: #64748b; margin-top: 2px;\">📍 Goner Road, Babaji Ka Modh, Jaipur, Rajasthan, India - 302031</div>\n        \n        <div class=\"grid\" style=\"margin-top: 14px; border-top: 1px solid #e8e2d8; padding-top: 10px;\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Suite Category:</div>\n            <div class=\"grid-cell value\">Royal Tent with Private Garden (Four-Poster King Bed)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-in Date:</div>\n            <div class=\"grid-cell value\">2026-11-10 (from 14:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Check-out Date:</div>\n            <div class=\"grid-cell value\">2026-11-12 (until 12:00)</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Duration & Occupancy:</div>\n            <div class=\"grid-cell value\">2 Nights &middot; 1 Room(s) &middot; 2 Guests</div>\n          </div>\n          \n        </div>\n      </div>\n\n      <!-- Hotel Owner / Property Host Section -->\n      <div class=\"section-title\">Property Host & Arrival Assistance</div>\n      <div class=\"host-box\">\n        <div class=\"host-name\">👤 Kunwar Ranvijay Singh Rathore <span style=\"display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-left: 6px;\">✓ Verified Host</span></div>\n        <div class=\"host-role\">Estate Director & Royal Rajput Host &middot; Experience: 19+ Years</div>\n        <div class=\"host-contact\">\n          <div>📞 <strong>Direct Host Mobile:</strong> <a href=\"tel:+91 98290 88214\">+91 98290 88214</a></div>\n          <div>☎️ <strong>Front Reception Desk:</strong> <a href=\"tel:+91 141 268 0101\">+91 141 268 0101</a></div>\n          <div>✉️ <strong>Official Property Email:</strong> <a href=\"mailto:director.rajvilas@asvilla.com\">director.rajvilas@asvilla.com</a></div>\n          <div style=\"margin-top: 8px; padding-top: 8px; border-top: 1px dashed #d4af3740;\">\n            🛎️ <strong>Arrival Instructions:</strong><br>\n            <span style=\"color: #475569; font-size: 12px;\">Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.</span>\n          </div>\n        </div>\n      </div>\n\n      <!-- Itemized Price Breakdown -->\n      <div class=\"section-title\">Itemized Price Breakdown</div>\n      <div class=\"card\">\n        <div class=\"grid\">\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Room Charges (2N &times; 1R):</div>\n            <div class=\"grid-cell value\">₹78,000</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Goods & Services Tax (12% GST):</div>\n            <div class=\"grid-cell value\">₹9,360</div>\n          </div>\n          <div class=\"grid-row\">\n            <div class=\"grid-cell label\">Concierge & Heritage Service Fee:</div>\n            <div class=\"grid-cell value\">₹1,500</div>\n          </div>\n          \n          <div class=\"grid-row\">\n            <div class=\"grid-cell label total-row\">Total Payable at Check-in:</div>\n            <div class=\"grid-cell value total-row\">INR ₹88,860</div>\n          </div>\n        </div>\n      </div>\n\n      <!-- Cancellation Policy -->\n      <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 16px; font-size: 12px; color: #475569;\">\n        <strong>Cancellation Policy:</strong> Free cancellation up to 72 hours before check-in.\n      </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer\">\n      <div style=\"font-weight: bold; color: #ffffff; margin-bottom: 4px;\">ASVILLA Luxury Concierge Reservations</div>\n      <div>Direct Line: +91 1800 278 4552 &middot; Email: <a href=\"mailto:reservations@asvilla.com\">reservations@asvilla.com</a></div>\n      <div style=\"margin-top: 8px; color: #64748b;\">This email confirmation serves as your digital stay voucher. Please carry a copy on your mobile device.</div>\n    </div>\n  </div>\n</body>\n</html>",
+      "textBody": "ASVILLA — LUXURY HOTEL & RESERVATION CONFIRMATION\nReference: ASV-2026-2611\n\nDear Aarav Sharma,\n\nThank you for choosing ASVILLA. Your stay at The Rajvilas Oberoi Resort has been successfully registered.\n\nRESERVATION DETAILS:\n- Hotel: The Rajvilas Oberoi Resort\n- Address: Goner Road, Babaji Ka Modh, Jaipur, India\n- Room: Royal Tent with Private Garden\n- Check-in: 2026-11-10 (From 14:00)\n- Check-out: 2026-11-12 (Until 12:00)\n- Nights: 2 | Rooms: 1 | Guests: 2\n- Payment Method: Pay at Hotel (Cash on Delivery / COD)\n- Total Amount: INR 88,860\n\nPROPERTY HOST & ARRIVAL CONTACT:\n- Host / Manager: Kunwar Ranvijay Singh Rathore (Estate Director & Royal Rajput Host)\n- Direct Host Mobile: +91 98290 88214\n- Direct Reception Desk: +91 141 268 0101\n- Official Host Email: director.rajvilas@asvilla.com\n- Check-in Instructions: Arrive via the grand fort gateway. Valet chauffeur service is complimentary. Our courtyard concierge will greet you with a fragrant marigold garland, traditional aarti, and sandalwood tikka ceremony.\n\nCANCELLATION POLICY:\nFree cancellation up to 72 hours before check-in.\n\n24/7 ASVILLA Concierge Desk: reservations@asvilla.com | +91 1800 278 4552\nYour Stay, Your Comfort, Your Way.",
+      "status": "delivered",
+      "type": "booking_confirmation",
+      "sentAt": "2026-10-18T15:24:20.353Z"
+    }
+  ]
+}
