@@ -9,7 +9,8 @@ import {
   EmailNotification,
 } from '../types';
 
-const API_BASE = (import.meta as any).env?.VITE_API_BASE || '/api';
+const rawApiBase = (import.meta as any).env?.VITE_API_BASE || (import.meta as any).env?.VITE_API_URL || '/api';
+const API_BASE = rawApiBase.endsWith('/') ? rawApiBase.slice(0, -1) : rawApiBase;
 
 function getAuthHeaders(): HeadersInit {
   const token = localStorage.getItem('asvilla_token');
@@ -22,49 +23,112 @@ function getAuthHeaders(): HeadersInit {
   return headers;
 }
 
+async function handleApiResponse(res: Response): Promise<any> {
+  const contentType = res.headers.get('content-type') || '';
+  if (contentType.includes('application/json')) {
+    try {
+      const data = await res.json();
+      return data;
+    } catch {
+      // fall through
+    }
+  }
+
+  const rawText = await res.text();
+  const cleanText = rawText.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().substring(0, 160);
+
+  if (!res.ok) {
+    return {
+      success: false,
+      message: cleanText || `Server responded with HTTP ${res.status}: ${res.statusText}`,
+      status: res.status,
+    };
+  }
+
+  return {
+    success: true,
+    message: cleanText || 'Success',
+  };
+}
+
 export const api = {
   // Auth
   async register(data: { name: string; email: string; phone?: string; password: string; confirmPassword?: string }) {
-    const res = await fetch(`${API_BASE}/auth/register`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    });
-    return res.json();
+    try {
+      const res = await fetch(`${API_BASE}/auth/register`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      return await handleApiResponse(res);
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err.message ? `Connection failed: ${err.message}` : 'Unable to connect to registration server. Please check your network.',
+      };
+    }
   },
 
   async login(data: { email: string; password: string }) {
-    const res = await fetch(`${API_BASE}/auth/login`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    });
-    return res.json();
+    try {
+      const res = await fetch(`${API_BASE}/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      return await handleApiResponse(res);
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err.message ? `Connection failed: ${err.message}` : 'Unable to connect to authentication server.',
+      };
+    }
   },
 
   async getMe(): Promise<{ success: boolean; user?: User; message?: string }> {
-    const res = await fetch(`${API_BASE}/auth/me`, {
-      headers: getAuthHeaders(),
-    });
-    return res.json();
+    try {
+      const res = await fetch(`${API_BASE}/auth/me`, {
+        headers: getAuthHeaders(),
+      });
+      return await handleApiResponse(res);
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err.message || 'Unable to retrieve user session.',
+      };
+    }
   },
 
   async updateProfile(data: { name: string; phone?: string }) {
-    const res = await fetch(`${API_BASE}/auth/profile`, {
-      method: 'PUT',
-      headers: getAuthHeaders(),
-      body: JSON.stringify(data),
-    });
-    return res.json();
+    try {
+      const res = await fetch(`${API_BASE}/auth/profile`, {
+        method: 'PUT',
+        headers: getAuthHeaders(),
+        body: JSON.stringify(data),
+      });
+      return await handleApiResponse(res);
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err.message || 'Unable to update profile.',
+      };
+    }
   },
 
   async updatePassword(data: { currentPassword: string; newPassword: string }) {
-    const res = await fetch(`${API_BASE}/auth/password`, {
-      method: 'PUT',
-      headers: getAuthHeaders(),
-      body: JSON.stringify(data),
-    });
-    return res.json();
+    try {
+      const res = await fetch(`${API_BASE}/auth/password`, {
+        method: 'PUT',
+        headers: getAuthHeaders(),
+        body: JSON.stringify(data),
+      });
+      return await handleApiResponse(res);
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err.message || 'Unable to update password.',
+      };
+    }
   },
 
   async forgotPassword(email: string) {

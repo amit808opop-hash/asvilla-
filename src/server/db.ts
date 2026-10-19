@@ -14,8 +14,10 @@ import {
   EmailNotification,
 } from './types';
 
-// Storage file location
-const DATA_DIR = path.resolve(process.cwd(), '.data');
+// Storage file location: use /tmp on serverless platforms (e.g. Vercel) where root is read-only
+const DATA_DIR = (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME)
+  ? path.join('/tmp', '.data')
+  : path.resolve(process.cwd(), '.data');
 const DB_FILE = path.join(DATA_DIR, 'asvilla_db.json');
 
 export interface DatabaseSchema {

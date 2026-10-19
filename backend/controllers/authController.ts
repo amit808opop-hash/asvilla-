@@ -83,7 +83,11 @@ export async function register(req: Request, res: Response): Promise<void> {
       try {
         await UserModel.create(newUser);
         console.log(`[MongoDB Atlas] ✅ User ${newUser.email} persisted to Atlas collection [users]`);
-      } catch (err) {
+      } catch (err: any) {
+        if (err.code === 11000) {
+          res.status(409).json({ success: false, message: 'An account with this email already exists in Atlas.' });
+          return;
+        }
         console.warn('Error creating user in Atlas:', err);
       }
     }
@@ -101,7 +105,10 @@ export async function register(req: Request, res: Response): Promise<void> {
     });
   } catch (err: any) {
     console.error('Registration error:', err);
-    res.status(500).json({ success: false, message: 'Server error during registration.' });
+    res.status(500).json({
+      success: false,
+      message: err.message ? `Server error during registration: ${err.message}` : 'Server error during registration.',
+    });
   }
 }
 

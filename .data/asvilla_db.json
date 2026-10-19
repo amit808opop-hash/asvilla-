@@ -19,6 +19,16 @@
       "role": "user",
       "createdAt": "2026-01-10T00:00:00.000Z",
       "updatedAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "_id": "usr_1792422892300_b6qb8",
+      "name": "Arjun Kapoor",
+      "email": "arjun.kapoor@example.com",
+      "phone": "+91 98111 22334",
+      "passwordHash": "$2b$10$ewRBPygaXjrVBwW7nOl8YOlFBplYfjS3F9xuvkLAakkiuh9ocwHQy",
+      "role": "user",
+      "createdAt": "2026-10-19T15:14:52.300Z",
+      "updatedAt": "2026-10-19T15:14:52.300Z"
     }
   ],
   "hotels": [

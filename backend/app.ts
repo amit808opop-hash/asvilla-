@@ -21,7 +21,17 @@ dotenv.config({ override: true });
 
 const app = express();
 
-app.use(cors({ origin: true, credentials: true }));
+// Full CORS configuration with preflight handling
+app.use(
+  cors({
+    origin: true,
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
+  })
+);
+app.options('*', cors());
+
 app.use(express.json());
 app.use(authenticateToken);
 
@@ -36,7 +46,7 @@ app.use(async (_req, _res, next) => {
 });
 
 // Health check with live DB status
-app.get('/api/health', (_req: Request, res: Response) => {
+app.get(['/api/health', '/health'], (_req: Request, res: Response) => {
   const dbStatus = getDatabaseStatus();
   res.json({
     status: dbStatus.connected ? 'healthy' : 'degraded',
@@ -47,21 +57,29 @@ app.get('/api/health', (_req: Request, res: Response) => {
   });
 });
 
-// Primary API Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/hotels', hotelRoutes);
-app.use('/api/hotels', reviewRoutes); // /api/hotels/:hotelId/reviews
-app.use('/api/rooms', roomRoutes);
-app.use('/api/bookings', bookingRoutes);
-app.get('/api/my-bookings', requireAuth, getMyBookings);
-app.get('/api/notifications', requireAuth, getNotifications);
-app.get('/api/availability', checkAvailability);
-app.use('/api/payments', paymentRoutes);
-app.use('/api/contact', contactRoutes);
-app.use('/api/offers', offerRoutes);
-app.use('/api/admin', adminRoutes);
+// Primary API Routes - Mount both with and without '/api' prefix for universal Vercel compatibility
+const routeList = [
+  { path: '/auth', router: authRoutes },
+  { path: '/hotels', router: hotelRoutes },
+  { path: '/hotels', router: reviewRoutes }, // /hotels/:hotelId/reviews
+  { path: '/rooms', router: roomRoutes },
+  { path: '/bookings', router: bookingRoutes },
+  { path: '/payments', router: paymentRoutes },
+  { path: '/contact', router: contactRoutes },
+  { path: '/offers', router: offerRoutes },
+  { path: '/admin', router: adminRoutes },
+];
+
+routeList.forEach(({ path: rPath, router }) => {
+  app.use(`/api${rPath}`, router);
+  app.use(rPath, router);
+});
+
+app.get(['/api/my-bookings', '/my-bookings'], requireAuth, getMyBookings);
+app.get(['/api/notifications', '/notifications'], requireAuth, getNotifications);
+app.get(['/api/availability', '/availability'], checkAvailability);
 
 // Centralized error handler
-app.use('/api', errorHandler);
+app.use(['/api', '/'], errorHandler);
 
 export default app;

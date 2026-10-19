@@ -53,15 +53,18 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const login = async (email: string, password: string) => {
     try {
       const res = await api.login({ email, password });
-      if (res.success && res.token && res.user) {
+      if (res && res.success && res.token && res.user) {
         localStorage.setItem('asvilla_token', res.token);
         setUser(res.user);
         setAuthModalOpen(false);
         return { success: true, message: res.message || 'Login successful' };
       }
-      return { success: false, message: res.message || 'Login failed' };
-    } catch {
-      return { success: false, message: 'Network or server error during sign in.' };
+      return { success: false, message: res?.message || 'Login failed. Please check your credentials.' };
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err?.message ? `Network or server error: ${err.message}` : 'Network or server error during sign in.',
+      };
     }
   };
 
@@ -74,15 +77,21 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }) => {
     try {
       const res = await api.register(data);
-      if (res.success && res.token && res.user) {
+      if (res && res.success && res.token && res.user) {
         localStorage.setItem('asvilla_token', res.token);
         setUser(res.user);
         setAuthModalOpen(false);
         return { success: true, message: res.message || 'Registration successful' };
       }
-      return { success: false, message: res.message || 'Registration failed' };
-    } catch {
-      return { success: false, message: 'Network or server error during registration.' };
+      return {
+        success: false,
+        message: res?.message || 'Registration could not be completed. Please try again.',
+      };
+    } catch (err: any) {
+      return {
+        success: false,
+        message: err?.message ? `Network or server error: ${err.message}` : 'Network or server error during registration.',
+      };
     }
   };
 
